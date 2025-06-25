@@ -1,0 +1,3133 @@
+[
+  {
+    "power": "Accuracy 1",
+    "quote": "The character is an ace with ranged attacks.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character adds +1 to their Agility damage multiplier, and they gain a +1 bonus to Agility checks other than attacks."
+  },
+  {
+    "power": "Accuracy 2",
+    "quote": "The character is a sharpshooter.",
+    "power_set": "None",
+    "prerequisites": "Accuracy 1, Rank 2",
+    "duration": "Permanent",
+    "effect": "The character adds +2 to their Agility damage multiplier, and they gain a +2 bonus to Agility checks other than attacks."
+  },
+  {
+    "power": "Accuracy 3",
+    "quote": "The character could hit a fly at one hundred paces.",
+    "power_set": "None",
+    "prerequisites": "Accuracy 2, Rank 3",
+    "duration": "Permanent",
+    "effect": "The character adds +3 to their Agility damage multiplier, and they gain a +3 bonus to Agility checks other than attacks."
+  },
+  {
+    "power": "Accuracy 4",
+    "quote": "The character can out-target almost anyone.",
+    "power_set": "None",
+    "prerequisites": "Accuracy 3, Rank 4",
+    "duration": "Permanent",
+    "effect": "The character adds +4 to their Agility damage multiplier, and they gain a +4 bonus to Agility checks other than attacks."
+  },
+  {
+    "power": "Additional Limbs",
+    "quote": "The character has extra limbs that can grab objects and attack foes.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character has an additional prehensile appendage (like a tail) or a symmetrical pair of them (like arms) that can be used to lift objects, use tools or otherwise take actions that normally require the use of a hand. This grants them an edge in Melee and Agility checks."
+  },
+  {
+    "power": "Advance",
+    "quote": "The character can advance their allies on the battlefield.",
+    "power_set": "Tactics",
+    "prerequisites": "Rally on Me, Scatter, Rank 4",
+    "action": "Reaction",
+    "trigger": "The character (or an ally in line of sight) stuns or defeats an enemy.",
+    "duration": "1 round",
+    "cost": "15 Focus",
+    "effect": "Any allies in earshot can be affected, up to a number equal to the character’s Ego defense. Each affected ally can immediately use a free movement action to move toward the enemy that triggered the reaction."
+  },
+  {
+    "power": "Always Ready",
+    "quote": "The character is prepared to fight.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Do This All Day, Rank 3",
+    "duration": "Permanent",
+    "effect": "The character gains one additional reaction per round, which can be used only to activate a Martial Arts power."
+  },
+  {
+    "power": "Anger",
+    "quote": "You won’t like them when they’re angry.",
+    "power_set": "None",
+    "prerequisites": "Mighty 3, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The character is harmed by an attack.",
+    "duration": "Concentration",
+    "cost": "10 or more Focus",
+    "effect": "The character becomes angry and uses that anger to increase their strength. For every 10 points of Focus they spend, they add +15 to their Melee damage bonus and lose –2 from their Logic—and subsequently their Logic defense. While using this power, they cannot use any other powers that require concentration."
+  },
+  {
+    "power": "Animal Bond",
+    "quote": "The character can communicate with an animal friend.",
+    "power_set": "Telepathy",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character can communicate telepathically with one animal of their choice, and they must have befriended the animal before. They cannot switch to another animal unless the animal dies, but they can select this power multiple times if desired."
+  },
+  {
+    "power": "Animal Communication",
+    "quote": "The character can communicate with a type of animal.",
+    "power_set": "Telepathy",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character can communicate telepathically with one taxonomic order of animals, such as birds, mammals, fish, amphibians and so on. They can call out to them as a group up to 500 spaces per rank away, and they can communicate specifically with ones they have met or at least seen."
+  },
+  {
+    "power": "Animated Illusion",
+    "quote": "By manipulating visual light, the character creates a moving hologram.",
+    "power_set": "Illusion",
+    "prerequisites": "Static Illusion, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character creates a visual-only illusion anywhere in line of sight, within 50 spaces. The illusion can be anything up to four sizes larger than the character, and it can move freely within its limits. The character breaks concentration if they move beyond 50 spaces from the illusion or lose line of sight to it."
+  },
+  {
+    "power": "Astral Form",
+    "quote": "The character can enter the Astral Plane.",
+    "power_set": "Magic, Telepathy",
+    "prerequisites": "Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character can project an avatar into the Astral Plane, leaving their physical body in a deep trance in the real world, where it is vulnerable to attack. While in the Astral Plane, they can interact with other characters in the Astral Plane, but they are intangible, invisible and generally undetectable in the real world. However, they can sense things in the real world. If the character is Rank 4 or higher, they can also take on a transparent form that can be seen in the real world."
+  },
+  {
+    "power": "Attack Stance",
+    "quote": "The character enters an aggressive attack stance, ready to strike in any direction.",
+    "power_set": "Martial Arts",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character doubles their Melee ability bonus to damage."
+  },
+  {
+    "power": "Banging Heads",
+    "quote": "The character takes two nearby enemies and slams their heads into each other.",
+    "power_set": "Martial Arts, Super-Strength",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character makes one Melee check against the Melee defense scores of two enemies within reach. If the attack fails against either foe, it fails entirely. If the attack is a success against both foes, each enemy takes full damage. On a Fantastic success, each enemy is also knocked prone."
+  },
+  {
+    "power": "Battle Plan",
+    "quote": "The character always has a plan.",
+    "power_set": "Tactics",
+    "prerequisites": "Inspiration, Rank 2",
+    "action": "Standard",
+    "duration": "1 round",
+    "cost": "10 Focus",
+    "effect": "The character inspires one or more allies of their choice in earshot, up to the character’s Vigilance. Inspired allies gain an edge on all action checks until the start of the character’s next turn."
+  },
+  {
+    "power": "Blazing-fast Fists",
+    "quote": "The character can attack superfast.",
+    "power_set": "Super-Speed",
+    "prerequisites": "Rank 2",
+    "duration": "Permanent",
+    "effect": "The character has an edge on all Melee attacks."
+  },
+  {
+    "power": "Blink",
+    "quote": "The character teleports a short distance away.",
+    "power_set": "Teleportation",
+    "prerequisites": "None",
+    "action": "Standard, movement or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Instant",
+    "effect": "The character teleports into a clear space they can see or have been to, up to their rank in spaces away. If someone was about to attack them and they are now out of reach or line of sight, the attack automatically fails. If they are still within reach or line of sight, the attack has trouble instead."
+  },
+  {
+    "power": "Blink Barrage",
+    "quote": "The character teleports rapidly around an opponent.",
+    "power_set": "Teleportation",
+    "prerequisites": "Blink, Rank 2",
+    "action": "Standard or movement",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character teleports several times in quick succession and winds up in a clear space they can see or have been to, up to their rank in spaces away. Any attacks have trouble against them for one round."
+  },
+  {
+    "power": "Blink Defense",
+    "quote": "The character teleports a short distance away.",
+    "power_set": "Teleportation",
+    "prerequisites": "Blink, Rank 3",
+    "action": "Reaction",
+    "trigger": "The character or an ally within reach is the subject of a ranged attack.",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character pops away just as the attack reaches them and then pops back into the same space, leaving the projectile behind. The character makes an Ego check with an edge against the attacker’s Agility check result. On a success, the projectile from the attack is teleported away, someplace safe. On a Fantastic success, the attack is turned against the attacker, using the Ego check the character just made as the attack check."
+  },
+  {
+    "power": "Blur",
+    "quote": "The character moves like a blur!",
+    "power_set": "Super-Speed",
+    "prerequisites": "Speed Run 2, Rank 2",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "1 round",
+    "cost": "5 Focus",
+    "effect": "Any attacks against the character have trouble."
+  },
+  {
+    "power": "Body Sheet",
+    "quote": "The character can flatten themselves like a sheet.",
+    "power_set": "Plasticity",
+    "prerequisites": "Flexible Bones 2, Extended Reach 2, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The character falls or is the target of an attack.",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "The character gains Health Damage Reduction 3, but they cannot make attacks. They gain a Glide Speed equal to double their Run Speed."
+  },
+  {
+    "power": "Body Sphere",
+    "quote": "The character can form their body into a protective sphere.",
+    "power_set": "Plasticity",
+    "prerequisites": "Body Sheet, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The character or an ally is the target of an attack.",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "The character forms their body into a sphere, protecting up to one ally per rank, squeezed into the same space. Those inside the sphere gain Health Damage Reduction 3 against outside attacks, but they cannot move on their own until the character releases them."
+  },
+  {
+    "power": "Bolts Of Balthakk",
+    "quote": "The character fires enchanted bots of electricity from their fingers.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "20 spaces",
+    "cost": "5 or more Focus",
+    "effect": "The character makes an Ego check with an edge against the Agility defense of a target in their line of sight. For this attack, add +1 to the character’s Ego damage bonus for every 2 points of Focus they spend. On a success, an affected target takes that total damage. On a Fantastic success, an affected target takes double that total damage and is stunned for one round."
+  },
+  {
+    "power": "Boost Powers",
+    "quote": "The character turbocharges all of another character’s powers!",
+    "power_set": "Power Control",
+    "prerequisites": "Bump Power, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "15 or more Focus",
+    "effect": "The character picks one character within 5 spaces and boosts all of their powers. If the powers have ranges or effective areas or durations, these are doubled. If the powers affect a damage multiplier, add 1 to the effects. Any effects that normally happen with a Fantastic successes automatically happen on any success, not just a Fantastic one."
+  },
+  {
+    "power": "Borrow Senses",
+    "quote": "The character can use another person’s senses.",
+    "power_set": "Telepathy",
+    "prerequisites": "Telepathic Link, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character can use the full senses of someone or something with whom they have established a telepathic link or bond. While they do, they retain the use of their own senses too."
+  },
+  {
+    "power": "Bounce Back",
+    "quote": "The character bounces back from even the hardest falls.",
+    "power_set": "Plasticity",
+    "prerequisites": "Flexible Bones 1, Slip Free, Rank 2",
+    "action": "Reaction",
+    "trigger": "The character takes damage from a fall or is knocked prone.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The fall doesn’t damage the character. If they are prone, they stand up. If they’d like, they can also jump a number of spaces, up to their Run Speed."
+  },
+  {
+    "power": "Brace For Impact",
+    "quote": "The character mentally toughens themselves for a fight.",
+    "power_set": "Martial Arts, Shield Bearer",
+    "prerequisites": "Do This All Day, Rank 2",
+    "action": "Reaction",
+    "trigger": "An enemy deals physical damage to the character.",
+    "duration": "Instant",
+    "cost": "5 or more Focus",
+    "effect": "For every point of Focus spent, the character can ignore 1 point of Health damage dealt by the attack."
+  },
+  {
+    "power": "Brain Drain",
+    "quote": "The character consumes the energies of another.",
+    "power_set": "Magic",
+    "prerequisites": "Rank 2",
+    "action": "Reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes an Ego attack against the target’s Vigilance. If it succeeds, the target takes regular Focus damage, and the character heals half that much Focus for themselves. On a Fantastic success, the character heals their full Focus damage instead."
+  },
+  {
+    "power": "Brawling",
+    "quote": "The character has the moves and is hard to hit.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character can use their Melee defense score against Agility attacks too."
+  },
+  {
+    "power": "Brilliance 1",
+    "quote": "The character puts their brain to work.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character adds +1 to their Logic damage multiplier, and they gain a +1 bonus to Logic checks other than attacks."
+  },
+  {
+    "power": "Brilliance 2",
+    "quote": "Everything makes more sense to the character.",
+    "power_set": "None",
+    "prerequisites": "Brilliance 1, Rank 2",
+    "duration": "Permanent",
+    "effect": "The character adds +2 to their Logic damage multiplier, and they gain a +2 bonus to Logic checks other than attacks."
+  },
+  {
+    "power": "Brilliance 3",
+    "quote": "Little can stop the character’s mind.",
+    "power_set": "None",
+    "prerequisites": "Brilliance 2, Rank 3",
+    "duration": "Permanent",
+    "effect": "The character adds +3 to their Logic damage multiplier, and they gain a +3 bonus to Logic checks other than attacks."
+  },
+  {
+    "power": "Brilliance 4",
+    "quote": "The character’s intelligence is unparalleled.",
+    "power_set": "None",
+    "prerequisites": "Brilliance 3, Rank 4",
+    "duration": "Permanent",
+    "effect": "The character adds +4 to their Logic damage multiplier, and they gain a +4 bonus to Logic checks other than attacks."
+  },
+  {
+    "power": "Bump Power",
+    "quote": "The character bumps up another character's power.",
+    "power_set": "Power Control",
+    "prerequisites": "Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 or more Focus",
+    "effect": "The character picks one power from another character within 5 spaces and boosts it. If the power has ranges or effective areas or durations, these are doubled. If the power affects a damage multiplier, add 1 to the effect. Any effects that normally happen with a Fantastic success automatically happen on any success, not just a Fantastic one."
+  },
+  {
+    "power": "Catch Bullets",
+    "quote": "The character is fast enough to catch bullets—safely!",
+    "power_set": "Super-Speed",
+    "prerequisites": "Speed Run 2, Rank 3",
+    "action": "Reaction",
+    "trigger": "A ranged attack using physical projectiles (arrows, bullets and so on) is made against the character—or a character within their character’s reach.",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character makes an Agility check, using the attacker’s attack result as the target number. If the character’s check succeeds, the attack is nullified. On a Fantastic success, the character gets their reaction back."
+  },
+  {
+    "power": "Chain Strikes",
+    "quote": "The character unleashes a hail of strikes.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Fast Strikes, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a close attack with an edge. If the attack is a success, the enemy takes regular damage. On a Fantastic success, the character can also make an additional Chain Strike."
+  },
+  {
+    "power": "Change Of Plans",
+    "quote": "The character thinks of a better way.",
+    "power_set": "Tactics",
+    "prerequisites": "Inspiration, Rank 2",
+    "action": "Reaction",
+    "trigger": "An ally has trouble on an action check.",
+    "duration": "1 round",
+    "cost": "5 Focus",
+    "effect": "The ally gains an edge on that action check."
+  },
+  {
+    "power": "Cloak",
+    "quote": "The character makes people believe they’re not there.",
+    "power_set": "Telepathy",
+    "prerequisites": "Telepathic Link, Rank 2",
+    "action": "Standard",
+    "cost": "5 Focus",
+    "duration": "Concentration",
+    "effect": "The character uses a mirage to block their presence from the minds of people within 20 spaces per rank. Cameras (for instance) can still record them, but when people look in the character’s direction, they see nothing there."
+  },
+  {
+    "power": "Cloak Group",
+    "quote": "The character mentally hides themselves and their friends.",
+    "power_set": "Telepathy",
+    "prerequisites": "Cloak, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "Using a mirage, the character blocks their presence—and the presence of up to one other person per rank, within 10 spaces—from the minds of people within 20 spaces per rank. Cameras (for instance) can still record them, but when people look in the characters’ direction, they see nothing there."
+  },
+  {
+    "power": "Clobber",
+    "quote": "The character pummels their foe with enough force to knock them flat.",
+    "power_set": "Super-Strength",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character makes a close attack against an enemy. If the attack is a success, the enemy takes regular damage. On a Fantastic success, the enemy takes double damage and is knocked prone."
+  },
+  {
+    "power": "Clone Moves",
+    "quote": "The character duplicates another character’s combat moves.",
+    "power_set": "Power Control",
+    "prerequisites": "Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 or more Focus",
+    "effect": "The character picks another character within 10 spaces and in their line of sight and duplicates all their powers that could be selected with the Special Training origin. They can now use those powers as if they were always theirs. If the copied powers have costs, the character must pay the highest of them, or a minimum of 5 Focus."
+  },
+  {
+    "power": "Clone Powers",
+    "quote": "The character duplicates all of another character’s powers.",
+    "power_set": "Power Control",
+    "prerequisites": "Copy Power, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "15 or more Focus",
+    "effect": "The character picks another character within 10 spaces and duplicates all of their powers. They can now use those powers as if they were always theirs. If the target’s powers have costs, the character must pay the highest of them, or a minimum of 15 Focus."
+  },
+  {
+    "power": "Coiling Crush",
+    "quote": "The character wraps around a target and crushes it.",
+    "power_set": "Plasticity",
+    "prerequisites": "Extended Reach 1, Reverse Punch, Rank 3",
+    "action": "Reaction",
+    "trigger": "The character grabs an enemy.",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character makes a Melee attack. On a success, the enemy is paralyzed. On a Fantastic success, the enemy also takes regular damage. During the character’s subsequent turns, they can spend their movement action to make a Melee check against the enemy's Resilience. If this succeeds, they inflict regular Health damage. On a Fantastic success, they do double damage instead."
+  },
+  {
+    "power": "Combat Support",
+    "quote": "The character gives a friend a hand.",
+    "power_set": "Tactics",
+    "prerequisites": "Change of Plans, Rank 3",
+    "action": "Standard",
+    "duration": "1 round",
+    "cost": "10 Focus",
+    "effect": "Once per battle, the character chooses an ally in earshot. If the ally makes an action check before the start of the character’s next turn, the ally automatically rolls a 1 on their Marvel die, and that die cannot be affected by trouble."
+  },
+  {
+    "power": "Combat Trickery",
+    "quote": "The character is a tricky one!",
+    "power_set": "None",
+    "prerequisites": "Rank 2",
+    "action": "Reaction",
+    "trigger": "The character makes an attack.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "Once per battle, when the character is attacking targets of equal or higher rank, the character automatically rolls a 1 on their Marvel die, and that die cannot be affected by trouble. If the character is attacking multiple targets, all the targets must be of equal or higher rank."
+  },
+  {
+    "power": "Command",
+    "quote": "The character forces someone to follow an order.",
+    "power_set": "Telepathy",
+    "prerequisites": "Telepathic Link, Rank 2",
+    "action": "Standard",
+    "duration": "1 round",
+    "cost": "5 Focus",
+    "effect": "The character gives an order to a target with whom they’ve established a Telepathic Link. The character makes a Logic check against the target’s Logic defense. On a success, the target complies with the order. On a Fantastic success, the character gains an edge the next time they use this power against this same target."
+  },
+  {
+    "power": "Control Fog",
+    "quote": "The character can create or dispel a thick fog.",
+    "power_set": "Weather Control",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character creates a thick fog for up to 50 spaces per rank around them that blocks all line of sight beyond 10 spaces. They can also dispel any fog in a similar area."
+  },
+  {
+    "power": "Control Weather 1",
+    "quote": "The character can make it rain.",
+    "power_set": "Weather Control",
+    "prerequisites": "Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "It starts to rain in an area up to 5 miles across times the character’s rank, centered on the character. All ranges are cut in half. Movement is not affected."
+  },
+  {
+    "power": "Control Weather 2",
+    "quote": "The character can make it storm.",
+    "power_set": "Weather Control",
+    "prerequisites": "Control Weather 1, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "It starts to storm in an area up to 5 miles across times the character’s rank, centered on the character. All ranges and all speeds are cut in half."
+  },
+  {
+    "power": "Control Weather 3",
+    "quote": "The character creates a thunderstorm.",
+    "power_set": "Weather Control",
+    "prerequisites": "Control Weather 2, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "It starts to storm in an area up to 5 miles across times the character’s rank, centered on the character. All ranges and all speeds are cut in half."
+  },
+  {
+    "power": "Control Weather 4",
+    "quote": "The character generates a hurricane.",
+    "power_set": "Weather Control",
+    "prerequisites": "Control Weather 3, Rank 5",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "20 Focus",
+    "effect": "It starts to storm in an area up to 5 miles across times the character’s rank, centered on the character. All ranges and all speeds are cut to one quarter normal, and flying is impossible."
+  },
+  {
+    "power": "Copy Ability",
+    "quote": "The character duplicates another character’s ability.",
+    "power_set": "Power Control",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character picks one ability score of another character within 10 spaces and duplicates it. They now use that ability score in place of their own."
+  },
+  {
+    "power": "Copy Power",
+    "quote": "The character duplicates another character’s power.",
+    "power_set": "Power Control",
+    "prerequisites": "Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character picks one power a target within 10 spaces has and duplicates it. They can now use it as if it was always theirs. When the character uses such a power, they must pay any cost normally as well."
+  },
+  {
+    "power": "Copy Trait",
+    "quote": "The character duplicates another character’s trait.",
+    "power_set": "Power Control",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character picks one trait another character within 10 spaces has and duplicates it. They can now use it as if it was always theirs."
+  },
+  {
+    "power": "Counterstrike Technique",
+    "quote": "The character counters an enemy’s strike with one of their own.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Attack Stance, Rank 2",
+    "action": "Reaction",
+    "trigger": "While Attack Stance is active, a close attack against the character does damage.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character deals half the attacker’s regular damage to the attacker."
+  },
+  {
+    "power": "Covering Fire",
+    "quote": "The character covers an ally’s attack.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Return Fire, Rank 3",
+    "action": "Reaction",
+    "trigger": "An ally within the character’s line of sight begins its turn.",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character makes an Agility attack against a target’s Vigilance defense. If the attack is a success, apply Health Damage Reduction normally. The target takes any damage to their Focus. If it’s a Fantastic success, the damage is doubled, and if the target takes any Focus damage, they are stunned for one round."
+  },
+  {
+    "power": "Crimson Bands Of Cyttorak",
+    "quote": "The character unleashes red bands of magic that lash out to capture their target.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "range": "20",
+    "cost": "10 Focus",
+    "effect": "The character makes an Ego check with an edge against the Melee defense of a target in their line of sight. If the attack is a success, the crimson bands paralyze the target. On a Fantastic success, the target can be pinned too. Breaking out of the crimson bands requires a Melee check with target number 20."
+  },
+  {
+    "power": "Crushing Grip",
+    "quote": "The character seizes an enemy and squeezes hard.",
+    "power_set": "Martial Arts, Super-Strength",
+    "prerequisites": "Rank 2",
+    "action": "Reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a Melee attack against the grabbed target’s Resilience defense. If it’s a success, the target takes regular damage. On a Fantastic success, the target takes double damage instead and is pinned."
+  },
+  {
+    "power": "Dampen Power",
+    "quote": "The character tamps down another character’s power.",
+    "power_set": "Power Control",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "Varies",
+    "effect": "The character picks one power from another character within 20 spaces and makes an Ego attack against them. On a success, they tamp the power down. If the power has ranges or effective areas or durations, these are halved. If the power affects a damage multiplier, subtract 1 from the effect. The power can no longer enjoy Fantastic successes."
+  },
+  {
+    "power": "Dance Of Death",
+    "quote": "The character spins about, shooting at every enemy around them.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Slow-Motion Shoot-Dodge, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character makes an Agility check and compares that against the Agility defense of every enemy within 5 spaces and in their line of sight. Each success does half the regular damage. On a Fantastic success, each enemy takes full damage instead and is bleeding."
+  },
+  {
+    "power": "Darkness",
+    "quote": "The targets become shrouded in unnatural darkness.",
+    "power_set": "Illusion",
+    "prerequisites": "Illumination, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "An area up to 5 spaces wide per the character’s rank—centered on anything the character wishes, within 50 spaces—is filled with inky darkness. Those inside it cannot see anything, and no lights work within it except those generated by powers. The character must remain within 50 spaces of the affected area to avoid breaking concentration."
+  },
+  {
+    "power": "Dazzle",
+    "quote": "The character blasts a blinding light into the face of their foe.",
+    "power_set": "Illusion",
+    "prerequisites": "Illumination, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "20 spaces",
+    "cost": "5 Focus",
+    "effect": "The character makes an Ego check against an enemy in their line of sight and compares that against the target’s Vigilance defense. If the attack is a success, the enemy is blinded for 1 turn. On a Fantastic success, it also inflicts regular damage."
+  },
+  {
+    "power": "Deafen",
+    "quote": "The character slaps silence into the target’s ears.",
+    "power_set": "Illusion",
+    "prerequisites": "Illumination, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "20 spaces",
+    "cost": "5 Focus",
+    "effect": "The character makes an Ego check against an enemy in their line of sight and compares that against the target’s Vigilance defense. If the attack is a success, the enemy is deafened for one turn. On a Fantastic success, it also inflicts regular damage."
+  },
+  {
+    "power": "Defense Stance",
+    "quote": "The character enters a fluid defensive stance, hands poised to parry and counterattack.",
+    "power_set": "Martial Arts",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "Any close attacks made against the character have trouble until they are successfully attacked in this combat."
+  },
+  {
+    "power": "Dimensional Portal",
+    "quote": "The character opens a portal to another place.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Dimensional Travel Together, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "The character opens a glowing portal in a space next to them that moves anything that enters it between that space and its destination, which forms a matched glowing portal in the other place. The other end of the portal must be in a clear space in another dimension that the character has been to. Anything can move through the portal in either direction until it is closed, which the character can do at will."
+  },
+  {
+    "power": "Dimensional Travel",
+    "quote": "The character moves from one dimension to another.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Rank 3",
+    "action": "Standard or movement",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character instantly moves from their current dimension to another dimension within the same universe. For instance: from Earth to Asgard, Limbo or K’un-Lun. When they move to the other dimension, they can arrive in any place they’ve been to before. Otherwise, they arrive at the most common entrance to that dimension."
+  },
+  {
+    "power": "Dimensional Travel Other",
+    "quote": "The character sends someone to another dimension.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Dimensional Travel, Rank 4",
+    "action": "Standard, movement or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes an Ego check against the Vigilance defense of a target they have grabbed. If the check is successful, the character can send the target to another dimension. The target can be sent to any location in that dimension that the character has been to before. Otherwise, the target arrives at the most common entrance to that dimension."
+  },
+  {
+    "power": "Dimensional Travel Together",
+    "quote": "The character brings someone with them to another dimension.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Dimensional Travel, Rank 3",
+    "action": "Standard, movement or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character moves to a different dimension, taking any person they are touching with them. If the target does not wish to come along, the character must grab them first."
+  },
+  {
+    "power": "Discipline 1",
+    "quote": "The character works to hone their power.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character adds +1 to their Ego damage multiplier, and they gain a +1 bonus to Ego checks other than attacks."
+  },
+  {
+    "power": "Discipline 2",
+    "quote": "The character is more in touch with their power than ever.",
+    "power_set": "None",
+    "prerequisites": "Discipline 1, Rank 2",
+    "duration": "Permanent",
+    "effect": "The character adds +2 to their Ego damage multiplier, and they gain a +2 bonus to Ego checks other than attacks."
+  },
+  {
+    "power": "Discipline 3",
+    "quote": "Few can top the character’s grasp on their power.",
+    "power_set": "None",
+    "prerequisites": "Discipline 2, Rank 3",
+    "duration": "Permanent",
+    "effect": "The character adds +3 to their Ego damage multiplier, and they gain a +3 bonus to Ego checks other than attacks."
+  },
+  {
+    "power": "Discipline 4",
+    "quote": "The character has mastered their power.",
+    "power_set": "None",
+    "prerequisites": "Discipline 3, Rank 4",
+    "duration": "Permanent",
+    "effect": "The character adds +4 to their Ego damage multiplier, and they gain a +4 bonus to Ego checks other than attacks."
+  },
+  {
+    "power": "Disguise",
+    "quote": "The character appears to be someone else.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Permanent",
+    "effect": "The character instantly alters their appearance so that they appear to be someone else. The target number for anyone trying to see through the disguise is the character’s Ego defense. If the character is impersonating someone known to the other person, that person has an edge."
+  },
+  {
+    "power": "Dispel Spell",
+    "quote": "The character puts an end to a foe’s magic.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes an Ego check against the Ego defense of a target using a magic power that requires concentration. On a success, the target’s concentration on that power is broken. On a Fantastic success, the target’s concentration is broken entirely."
+  },
+  {
+    "power": "Disrupt Electronics",
+    "quote": "The character can scramble electronics by moving through them.",
+    "power_set": "Phasing",
+    "prerequisites": "Phase Self, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "When phasing through electronics, the character can scramble them, causing them to either shut down or crash. In the case of powers that are Tech Reliant (and feature electronics), they are unusable for one turn while they reboot."
+  },
+  {
+    "power": "Disrupt Nerves",
+    "quote": "The character can scramble someone’s nervous system.",
+    "power_set": "Phasing",
+    "prerequisites": "Phase Self, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "When phasing through a person, the character can attempt to scramble their nervous system. The character makes an Ego check against the target’s Resilience defense. On a success, the target is stunned for one round. On a Fantastic success, the target also falls prone."
+  },
+  {
+    "power": "Disrupt Person",
+    "quote": "The character can hurt someone with their phasing powers.",
+    "power_set": "Phasing",
+    "prerequisites": "Phase Self, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character becomes the slightest bit solid while phasing themselves or a phased weapon through someone. They make a close attack. On a success, the attack does normal damage, ignoring any Health Damage Reduction. On a Fantastic success, the attack does double damage instead, ignoring any Health Damage Reduction, and the target is stunned for one round."
+  },
+  {
+    "power": "Do This All Day",
+    "quote": "The character draws on their inner strength to heal themselves.",
+    "power_set": "Martial Arts, Shield Bearer",
+    "prerequisites": "Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 or more Focus",
+    "effect": "The character heals 2 points of Health for every point of Focus they spend."
+  },
+  {
+    "power": "Domination",
+    "quote": "The character forces someone to follow their orders—permanently.",
+    "power_set": "Telepathy",
+    "prerequisites": "Orders, Rank 5",
+    "action": "Standard",
+    "duration": "Permanent",
+    "cost": "20 Focus",
+    "effect": "The character dominates a target with whom they’ve established a Telepathic Link and who has no Focus left. The character makes a Logic check with trouble against the target’s Logic defense. On a success, the target is completely dominated and will follow the character’s orders. On a Fantastic success, the character gains an edge the next time they use this power against this same target."
+  },
+  {
+    "power": "Double Tap",
+    "quote": "To be twice as sure.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character makes a ranged attack against an enemy within 2 spaces. If the attack is a success, the enemy takes regular damage. On a Fantastic success, the enemy takes double damage and is bleeding."
+  },
+  {
+    "power": "Edit Memory",
+    "quote": "The character alters someone’s memory.",
+    "power_set": "Telepathy",
+    "prerequisites": "Memory Blip, Rank 4",
+    "action": "Standard",
+    "duration": "Permanent",
+    "cost": "15 Focus",
+    "effect": "The character alters the memory of a target with whom they’ve established a Telepathic Link. This can be as simple as erasing a chunk of the target’s memory or as complicated as implanting entirely new memories. The Narrator sets the target number based on how complex the new memory is and how hard it would be to integrate such memories into the character’s other memories."
+  },
+  {
+    "power": "Elemental Barrage",
+    "quote": "The character hurls a barrage of their element at their foes.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Blast, Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character designates a space within their line of sight. The attack can affect every enemy within 10 spaces of that. The character makes a single Ego check and compares it to each target’s Resilience defense. Affected enemies take half regular damage. On a Fantastic success, they take full regular damage and the elemental type’s special effect."
+  },
+  {
+    "power": "Elemental Barrier",
+    "quote": "The character forms a wall of their element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Blast, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character forms a wall of their element within their line of sight and up to 10 spaces away per rank. This covers up to 2 spaces across (vertically/horizontally) per their rank. The character makes an Agility check and compares the results against the Agility defense of any target in the affected spaces. On a success, the character chooses which side of the barrier the target winds up on. On a failure, the target chooses. On a Fantastic success, the target suffers the element’s special effect too."
+  },
+  {
+    "power": "Elemental Blast",
+    "quote": "The character blasts a foe with their element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Burst, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "10 spaces",
+    "cost": "5 or more Focus",
+    "effect": "The character makes a ranged attack with an edge at an enemy in line of sight. For this attack, add +1 to the character’s Agility damage bonus for every 2 points of Focus they spend. On a success, an affected target takes that total damage. On a Fantastic success, an affected target takes double that total damage and suffers the elemental type’s special effect."
+  },
+  {
+    "power": "Elemental Burst",
+    "quote": "The character fires a burst of their element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "10 spaces",
+    "effect": "The character makes a ranged attack against an enemy in line of sight. If the attack is a success, it inflicts regular damage. On a Fantastic success, the enemy takes double damage instead and the elemental type’s special effect."
+  },
+  {
+    "power": "Elemental Form",
+    "quote": "The character’s body is made of their element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Reinforcement, Rank 3",
+    "duration": "Permanent",
+    "effect": "The character’s body is made entirely of their element, which gives them a steady supply of their element to use and makes them essentially unkillable. When they lose all their Health, their form loses its cohesion and falls apart. When they have at least 1 Health—which they can gain back over time, normally—they can re-form."
+  },
+  {
+    "power": "Elemental Grab",
+    "quote": "The character uses their element to snare a target.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Burst, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "range": "Varies",
+    "cost": "5 Focus",
+    "effect": "The character makes an Ego attack against a target’s Melee defense within 5 spaces times the character’s rank. If the attack is a success, the character grabs the target with their element. On a Fantastic success, the target can also be pinned and suffers the element’s special effect. Breaking free requires a successful Melee check against target number 20."
+  },
+  {
+    "power": "Elemental Infusion",
+    "quote": "The character infuses a weapon with their element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Burst, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character infuses their energy into a handheld weapon in their grasp. When the character gets a Fantastic success attacking with the weapon, add the energy’s special effect."
+  },
+  {
+    "power": "Elemental Prison",
+    "quote": "The character can create a cage of their element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Protection 1",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "Same as the character’s Elemental Protection power",
+    "effect": "The character picks a point within their line of sight and traps any chosen targets within up to 5 spaces times their rank—in a prison comprised of their element. When the Elemental Prison is formed, the character makes an Ego check and compares the results against the Agility defense of targets inside the enclosed spaces. On each success, the character traps the target within the prison’s perimeter. On a Fantastic success, such imprisoned people suffer full damage and the element’s special effect too."
+  },
+  {
+    "power": "Elemental Protection 1",
+    "quote": "The character protects themselves with their element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Barrier, Rank 2",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked or otherwise in danger.",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character protects themselves with their element. Any attacks against them that do 10 points of damage or less are instantly absorbed, and the protection continues. If an attack does more than 10 points of damage, it destroys the protection, allowing excess damage through."
+  },
+  {
+    "power": "Elemental Protection 2",
+    "quote": "The character’s elemental protection is like armor.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Protection 1, Rank 3",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked or otherwise in danger.",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character protects themselves with their element. Any attacks against them that do 20 points of damage or less are instantly absorbed, and the protection continues. If an attack does more than 20 points of damage, it destroys the protection, allowing excess damage through."
+  },
+  {
+    "power": "Elemental Protection 3",
+    "quote": "The character’s elemental protection is like a tank.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Protection 2, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked or otherwise in danger.",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "The character protects themselves with their element. Any attacks against them that do 30 points of damage or less are instantly absorbed, and the protection continues. If an attack does more than 30 points of damage, it destroys the protection, allowing excess damage through."
+  },
+  {
+    "power": "Elemental Protection 4",
+    "quote": "The character’s elemental protection is like a fortress.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Protection 3, Rank 5",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked or otherwise in danger.",
+    "duration": "Concentration",
+    "cost": "20 Focus",
+    "effect": "The character protects themselves with their element. Any attacks against them that do 40 points of damage or less are instantly absorbed, and the protection continues. If an attack does more than 40 points of damage, it destroys the protection, allowing excess damage through."
+  },
+  {
+    "power": "Elemental Push",
+    "quote": "The character can move a target with their element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Burst, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character makes an Ego attack against the target’s Agility defense. If the attack succeeds, the character can move the target in any direction, up to 1 space times the character’s rank. On a Fantastic success, the target also takes regular damage, is knocked prone and suffers the element’s special effect."
+  },
+  {
+    "power": "Elemental Reinforcement",
+    "quote": "The character reinforces their powers with their element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Protection 1",
+    "action": "Reaction",
+    "trigger": "Damage gets through an elemental power",
+    "duration": "Instant",
+    "cost": "Varies",
+    "effect": "The character can transfer any Health damage that gets through an elemental power that grants damage protection to their Focus instead, leaving the protection intact."
+  },
+  {
+    "power": "Elemental Ricochet",
+    "quote": "The character bounces the burst off one foe and into another.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Burst, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "10 spaces times the character’s rank",
+    "cost": "10 Focus",
+    "effect": "The character makes a ranged attack against a target in line of sight. If the attack is a success, it inflicts regular damage. On a Fantastic success, energy also bounces off the first target to another in line of sight, and the character can make a new attack against that target, adding the new range to the previous attack’s range. This can be repeated until an attack is not fantastic."
+  },
+  {
+    "power": "Elemental Sphere",
+    "quote": "The character can create a protective sphere of their element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Protection 1",
+    "action": "Standard or reaction",
+    "duration": "Concentration",
+    "cost": "Same as the character’s Elemental Protection power",
+    "effect": "The character envelops themselves—and any chosen people within up to 5 spaces times their rank—in a protective sphere comprised of their element."
+  },
+  {
+    "power": "Elemental Suffocation",
+    "quote": "The character envelops a target’s head in an element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Grab, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The target is grabbed with Elemental Grab.",
+    "duration": "Instant",
+    "range": "Varies",
+    "cost": "15 Focus",
+    "effect": "The character makes an Ego attack against the grabbed target’s Resilience defense. If the attack is a success, the target takes regular damage. On a Fantastic success, the target can also be pinned and suffers the element’s special effect."
+  },
+  {
+    "power": "Energy Absorption",
+    "quote": "The character turns damage into power.",
+    "power_set": "None",
+    "prerequisites": "Rank 4",
+    "action": "Reaction",
+    "trigger": "The character takes Health damage.",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character can take any Health damage done to them (after applying any damage reduction), ignore it and add that number to their Focus instead. In this way, they can increase their Focus up to double their regular maximum Focus. Once the combat is over, any extra Focus over the character’s regular maximum Focus score fades away."
+  },
+  {
+    "power": "Environmental Protection",
+    "quote": "Environmental effects don’t bother the character.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character is not harmed by intense cold or heat, the pressure of the deep seas or the intense radiation and vacuum of space."
+  },
+  {
+    "power": "Esp",
+    "quote": "The character can sense the presence of others.",
+    "power_set": "Telepathy",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character can reach out with their mind to sense the presence of others within 100 spaces per rank. This tells them the person’s location and general status. It can also identify if they have super-powers or not."
+  },
+  {
+    "power": "Evasion",
+    "quote": "The character can dodge fists quickly.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character can use their Agility defense score against Melee attacks too."
+  },
+  {
+    "power": "Exorcism",
+    "quote": "The character removes an intruder from someone’s body.",
+    "power_set": "Magic",
+    "prerequisites": "Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character attempts to remove the possessor from a possessed target. The character makes an Ego check against the possessor’s Ego defense. On a success, the possessor’s concentration is broken, ending the possession. On a Fantastic success, all of the possessor’s concentrations are broken, and the possessor is stunned for one round too."
+  },
+  {
+    "power": "Exploit",
+    "quote": "The character finds a weak spot and exploits it.",
+    "power_set": "Melee Weapons",
+    "prerequisites": "Vicious Attack, Rank 2",
+    "action": "Reaction",
+    "trigger": "A Fantastic success on an attack using the character’s weapon that deals at least 1 point of damage",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a Melee attack against the target’s Resilience defense score. If the attack is a success, the damage it does ignores Health Damage Reduction. On a Fantastic success, the target suffers double damage and the weapon’s special effect."
+  },
+  {
+    "power": "Extend Invisibility",
+    "quote": "The character makes something else invisible.",
+    "power_set": "Illusion",
+    "prerequisites": "Invisibility",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character makes something—a single person or object—within reach invisible. This can be one size bigger than them for every rank they have."
+  },
+  {
+    "power": "Extended Reach 1",
+    "quote": "The character’s reach grows.",
+    "power_set": "Plasticity",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character’s reach quadruples."
+  },
+  {
+    "power": "Extended Reach 2",
+    "quote": "The character can reach a looong way.",
+    "power_set": "Plasticity",
+    "prerequisites": "Extended Reach 1, Rank 2",
+    "duration": "Permanent",
+    "effect": "The character’s reach is 10 times normal."
+  },
+  {
+    "power": "Fast Attacks",
+    "quote": "The character’s weapons lash out!",
+    "power_set": "Melee Weapons",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character splits their attack to make two close attacks against separate targets within reach (or they can focus a single attack on a single target). Make a single Melee check and compare it to the targets’ Melee defenses. On a success, the affected target takes half regular damage. On a Fantastic success, the affected target takes full damage, and the character can make a bonus attack with this power against any target within reach, with the same effect."
+  },
+  {
+    "power": "Fast Hands",
+    "quote": "The character can shoot faster than the eye can blink.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Point-Blank Parry, Rank 3",
+    "duration": "Permanent",
+    "effect": "The character gains one additional reaction per round. This reaction can be used only to trigger a Ranged Weapons power."
+  },
+  {
+    "power": "Fast Strikes",
+    "quote": "The character unleashes a flurry of strikes.",
+    "power_set": "Martial Arts",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character splits their attack to make two close attacks against separate targets within reach (or they can focus a single attack on a single target). Make a single Melee check and compare it to the targets’ Melee defenses. On a success, the affected target takes half regular damage. On a Fantastic success, the affected target takes full damage."
+  },
+  {
+    "power": "Flames Of The Faltine",
+    "quote": "The character shoots jets of enchanted fire from their hands.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "10 spaces",
+    "cost": "5 Focus",
+    "effect": "The character makes an Ego check against the Agility defense of a target in their line of sight. If the attack is a success, it inflicts regular damage. On a Fantastic success, the target takes double damage and then suffers 5 points of damage at the end of every round until someone uses an action to put out the flames."
+  },
+  {
+    "power": "Flare",
+    "quote": "The character generates a dazzling flare of light.",
+    "power_set": "Illusion",
+    "prerequisites": "Illumination, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character makes an Ego check and compares that against the Vigilance defense of every enemy within 5 spaces. Each beaten enemy is blinded for one turn. On a Fantastic success, the flare inflicts regular damage too."
+  },
+  {
+    "power": "Flexible Bones 1",
+    "quote": "The character’s skeleton is rubbery.",
+    "power_set": "Plasticity",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character gains Health Damage Reduction 1. They also have an edge on Agility checks for contortion and escape."
+  },
+  {
+    "power": "Flexible Bones 2",
+    "quote": "The character’s skeleton is flexible and pliable.",
+    "power_set": "Plasticity",
+    "prerequisites": "Flexible Bones 1, Rank 2",
+    "duration": "Permanent",
+    "effect": "The character gains Health Damage Reduction 2. They also have a double edge on Agility checks for contortion and escape."
+  },
+  {
+    "power": "Flexible Fingers",
+    "quote": "The character can turn their fingers and hands into whatever tool they need.",
+    "power_set": "Plasticity",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "With a standard action, the character can automatically pick any lock that requires a physical key. They can also shape their hands to form almost any other kind of simple tool."
+  },
+  {
+    "power": "Flight 1",
+    "quote": "The character can soar into the sky.",
+    "power_set": "None",
+    "prerequisites": "Rank 2",
+    "duration": "Permanent",
+    "effect": "The character can fly. Their combat Flight Speed is equal to their rank times their Run Speed. Outside of combat, they can move three times their Flight Speed."
+  },
+  {
+    "power": "Flight 2",
+    "quote": "The character can zoom across the sky.",
+    "power_set": "None",
+    "prerequisites": "Flight 1, Rank 3",
+    "duration": "Permanent",
+    "effect": "Outside of combat, the character can fly up to 50 times their Flight Speed."
+  },
+  {
+    "power": "Flying Double Kick",
+    "quote": "The character leaps into the air and snap kicks two enemies at once.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Leg Sweep, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character makes a close attack against two enemies within reach. If an attack is a success, the enemy takes regular damage. If an attack is a Fantastic success, the enemy takes double damage and is knocked prone."
+  },
+  {
+    "power": "Focus Fire",
+    "quote": "The character calls out a target.",
+    "power_set": "Tactics",
+    "prerequisites": "Battle Plan, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character calls out an enemy in line of sight and inspires one or more allies of their choice in earshot, up to the character’s Vigilance. They gain an edge on all action checks against that enemy."
+  },
+  {
+    "power": "Focused Fury",
+    "quote": "The character channels their rage into a devastating blow.",
+    "power_set": "Melee Weapons",
+    "prerequisites": "Exploit, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 or more Focus",
+    "effect": "The character makes a close attack with an edge. For this attack, add +1 to the character’s Melee damage bonus for every 2 points of Focus they spend. On a success, an affected target takes that total damage. On a Fantastic success, an affected target takes double that total damage and suffers the weapon’s special effect."
+  },
+  {
+    "power": "Focused Strike",
+    "quote": "The character finds the right spot and strikes.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Chain Strikes, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "10 or more Focus",
+    "effect": "The character makes a close attack. Add +1 to the character’s Melee damage bonus for every 2 points of Focus they spend. On a success, an affected target takes that total damage. On a Fantastic success, an affected target takes double that total damage and is stunned for one round."
+  },
+  {
+    "power": "Fool",
+    "quote": "The character makes people believe they are someone else.",
+    "power_set": "Telepathy",
+    "prerequisites": "Telepathic Link, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character uses a mirage to alter their appearance in the minds of anyone within 20 spaces per rank. Cameras (for instance) can still record them normally, but when people look in the character’s direction, they see someone else."
+  },
+  {
+    "power": "Furious Attacks",
+    "quote": "The character’s weapons smash into the foe.",
+    "power_set": "Melee Weapons",
+    "prerequisites": "Whirling Frenzy, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "10 or more Focus",
+    "effect": "The character splits their attack to make two close attacks against separate targets within reach (or they can focus a single attack on a single target). Make a single Melee check and compare it to the targets’ Melee defenses. For these attacks, add +1 to the character’s Melee damage bonus for every 2 points of Focus they spend. On a success, an affected target takes half that total damage. On a Fantastic success, an affected target takes full damage and suffers the weapon’s special effect."
+  },
+  {
+    "power": "Grand Mirage",
+    "quote": "The character can make a mirage appear in a group’s mind.",
+    "power_set": "Telepathy",
+    "prerequisites": "Mirage, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character creates a full-sensory mirage that affects everyone in a Telepathic Network they set up who is also in the same locale. The mirage can be of anything the character desires, and it can move freely."
+  },
+  {
+    "power": "Grand Fool",
+    "quote": "The character mentally makes the group they’re with appear to be like other people.",
+    "power_set": "Telepathy",
+    "prerequisites": "Fool, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character uses a mirage to alter their appearance—and the appearance of up to one other person per rank, within 10 spaces—in the minds of people within 20 spaces per rank. Cameras (for instance) can still record them, but when people look in the characters’ direction, they see other people."
+  },
+  {
+    "power": "Grand Illusion",
+    "quote": "By manipulating light and sound, the character creates an incredibly real hologram.",
+    "power_set": "Illusion",
+    "prerequisites": "Animated Illusion, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character creates a sound and sight illusion anywhere in line of sight, within 50 spaces. The illusion can be of anything up to five sizes larger than the character, and it can move freely within its limits. The character breaks concentration if they move beyond 50 spaces from the illusion or lose line of sight of it."
+  },
+  {
+    "power": "Grappling Technique",
+    "quote": "The character snags an enemy.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a close attack. If the attack is a success, the enemy takes regular damage and is grabbed. On a Fantastic success, the target takes double damage instead and is pinned too."
+  },
+  {
+    "power": "Ground-shaking Stomp",
+    "quote": "The character smashes the ground so hard the earth trembles.",
+    "power_set": "Super-Strength",
+    "prerequisites": "Smash, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character makes a Melee check and compares that against the Agility defense of every target within the character’s reach plus their rank in spaces. Any targets the attack succeeds against take half regular damage. On a Fantastic success, the targets take full damage and are knocked prone."
+  },
+  {
+    "power": "Group Flight",
+    "quote": "The character can carry others with them into the sky.",
+    "power_set": "None",
+    "prerequisites": "Flight 1, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "For every point of Ego the character has, they can hoist one ally into the air with them. The Flight Speed of the group is half the character’s, and all affected allies must remain within 5 spaces times the character’s rank. The character controls each ally’s speed and position during the character’s turn, but they can release any or all allies at any time."
+  },
+  {
+    "power": "Group Invisibility",
+    "quote": "The character can make something else invisible.",
+    "power_set": "Illusion",
+    "prerequisites": "Extend Invisibility, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "For every point of Ego defense the character has, they can make one person or thing invisible, including themselves. Each of these can be one size bigger than them for every rank they have."
+  },
+  {
+    "power": "Group Levitation",
+    "quote": "The character can lift others into the air too.",
+    "power_set": "Telekinesis",
+    "prerequisites": "Levitation, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character can move up to one person per rank through the air in any direction at the character’s Run Speed. The levitated target(s) must remain within 5 spaces times the character’s rank. If any target does not wish to be moved like this, they must be telekinetically grabbed first."
+  },
+  {
+    "power": "Grow 1",
+    "quote": "The character sizes up!",
+    "power_set": "Resize",
+    "prerequisites": "None",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Permanent",
+    "effect": "The character can grow up to huge size. They can return to their normal size at will."
+  },
+  {
+    "power": "Grow 2",
+    "quote": "The character becomes even bigger!",
+    "power_set": "Resize",
+    "prerequisites": "Grow 1",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Permanent",
+    "effect": "The character can grow up to gigantic size. They can return to their normal size at will."
+  },
+  {
+    "power": "Grow 3",
+    "quote": "The character can be the size of a house!",
+    "power_set": "Resize",
+    "prerequisites": "Grow 2",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Permanent",
+    "effect": "The character can grow up to titanic size. They can return to their normal size at will."
+  },
+  {
+    "power": "Grow 4",
+    "quote": "The character can tackle kaiju!",
+    "power_set": "Resize",
+    "prerequisites": "Grow 3",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Permanent",
+    "effect": "The character can grow up to gargantuan size. They can return to their normal size at will."
+  },
+  {
+    "power": "Growing Attack",
+    "quote": "The character attacks as they grow",
+    "power_set": "Resize",
+    "prerequisites": "Grow 1, Rank 2",
+    "action": "Reaction",
+    "trigger": "The character grows.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a close attack with an edge. If the attack succeeds, they do regular damage for the size they are growing to. On a Fantastic success, they do double damage and stun the target."
+  },
+  {
+    "power": "Headshot",
+    "quote": "Ouch!",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Stopping Power, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes a ranged attack with trouble on an enemy within the weapon’s range. If the attack is a success, the enemy takes double normal damage. On a Fantastic success, the enemy takes triple damage. Either way, if the enemy suffers any actual damage, they are also stunned for one round."
+  },
+  {
+    "power": "Healing Factor",
+    "quote": "The character heals amazingly fast.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "At the end of the character’s turn, they regain Health equal to their Resilience. (This works outside of combat too, quickly bringing them back to full Health.)"
+  },
+  {
+    "power": "Heightened Senses 1",
+    "quote": "The character has superior senses.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character can sense things roughly twice as far away as normal. They also have an edge on Vigilance checks to perceive things, and enemies have trouble on checks they make to sneak past the character."
+  },
+  {
+    "power": "Heightened Senses 2",
+    "quote": "The character has senses as sharp as radar.",
+    "power_set": "None",
+    "prerequisites": "Heightened Senses 1",
+    "duration": "Permanent",
+    "effect": "The character can sense things roughly four times as far away as normal. Their senses are so sharp that they can use some of them to compensate for the loss of others (say, if blinded or deafened). They can even listen to the heartbeat of a person in the same room to see if they are lying—although this is as reliable as a traditional lie detector: far from 100% and not admissible in court."
+  },
+  {
+    "power": "Hellfire Chains",
+    "quote": "The character shoots out chains covered in hellfire.",
+    "power_set": "Magic",
+    "prerequisites": "Cursed, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character summons chains covered in hellfire and can use them to bind or smash targets. They can attack anyone within 10 spaces per rank and line of sight. Make an Ego attack. On a success, the target takes regular Health damage. On a Fantastic success, the target is grabbed and paralyzed too."
+  },
+  {
+    "power": "Hex Bolt",
+    "quote": "The character hurls a hex bolt at their foe.",
+    "power_set": "Magic",
+    "prerequisites": "Chaotic, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character fires a hex bolt at a foe. Make an Ego check against the target’s Agility defense. On a success, the attack does regular damage. On a Fantastic success, it does double damage and causes the target trouble for one round."
+  },
+  {
+    "power": "Hit & Run",
+    "quote": "The character hits hard and keeps moving!",
+    "power_set": "Melee Weapons",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character makes a close attack with an edge on an enemy. If the attack is a success, the enemy takes regular damage, and the character can make an additional movement up to half their Run Speed for free. On a Fantastic success, the enemy takes double damage and suffers the weapon’s special effect."
+  },
+  {
+    "power": "Hit The Dirt",
+    "quote": "The character gets their allies to take cover.",
+    "power_set": "Tactics",
+    "prerequisites": "Keep Moving, Rank 2",
+    "action": "Reaction",
+    "trigger": "An enemy in line of sight makes an attack on an ally within earshot.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "All allies within earshot can fall prone if they wish and are able to. If falling prone makes the ally an ineligible target for the initial attack, the attack automatically fails."
+  },
+  {
+    "power": "Hurled Shield Bash",
+    "quote": "The character hurls their mighty shield at an enemy.",
+    "power_set": "Shield Bearer",
+    "prerequisites": "Shield Bash, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "10 spaces times the character’s rank",
+    "cost": "5 Focus",
+    "effect": "The character makes a ranged attack on an enemy. If the attack is a success, the enemy takes regular damage. On a Fantastic success, the enemy takes double damage and is knocked prone. The shield then bounces back to the character."
+  },
+  {
+    "power": "Hurled Shield Block",
+    "quote": "The character hurls their mighty shield to protect an ally from an attack.",
+    "power_set": "Shield Bearer",
+    "prerequisites": "Shield 1, Rank 2",
+    "action": "Reaction",
+    "trigger": "An enemy makes an attack against an ally’s Agility.",
+    "duration": "Instant",
+    "range": "5 spaces times the character’s rank",
+    "cost": "5 Focus",
+    "effect": "The ally gains Health Damage Reduction equal to the character’s Shield power against that attack. The shield then bounces back to the character."
+  },
+  {
+    "power": "Hurled Shield Deflection",
+    "quote": "The character hurls their mighty shield to save an ally from an attack.",
+    "power_set": "Shield Bearer",
+    "prerequisites": "Shield Deflection, Rank 2",
+    "action": "Reaction",
+    "trigger": "An enemy makes an attack against an ally’s Agility.",
+    "duration": "Instant",
+    "range": "5 spaces times the character’s rank",
+    "cost": "5 Focus",
+    "effect": "The enemy has trouble on the attack. The shield then bounces back to the character."
+  },
+  {
+    "power": "Iconic Weapon",
+    "quote": "Power Set: None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character is known for owning and using a unique and powerful weapon, like Mjolnir (Thor’s hammer) or Captain America’s shield. The Narrator must approve the details of this weapon. This power can be taken more than once, but each time must be with a different weapon."
+  },
+  {
+    "power": "Icy Tendrils Of Ikthalon",
+    "quote": "The character unleashes freezing tendrils at a foe.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "10 spaces",
+    "cost": "5 Focus",
+    "effect": "The character makes an Ego check against the Agility defense of a target in their line of sight. If the attack is a success, it inflicts regular damage. On a Fantastic success, the enemy takes double that total damage and is paralyzed by the ice."
+  },
+  {
+    "power": "Illumination",
+    "quote": "The character creates a bright light.",
+    "power_set": "Illusion",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character illuminates one object or point in line of sight, within 50 spaces, with bright light. The character can maintain concentration on the effect even if they move out of range or line of sight."
+  },
+  {
+    "power": "Images Of Ikonn",
+    "quote": "The character creates illusory duplicates of a person.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character creates one sound and sight illusory duplicate per rank of one person they’ve met (including themselves). The duplicates look and sound exactly like the original and are under the character’s complete control. They start in the same space as the character and instantly move into any open space around them, up to 2 spaces away, during which time the character can swap places with any of the duplicates. If the character is duplicating themselves, the character’s player should secretly record which one is the actual character."
+  },
+  {
+    "power": "Immovable",
+    "quote": "Nobody pushes the character around.",
+    "power_set": "Shield Bearer, Super-Strength",
+    "prerequisites": "None",
+    "action": "Reaction",
+    "trigger": "The character is knocked back or knocked prone.",
+    "duration": "Instant",
+    "effect": "For every point of Melee defense the character has, they can reduce knockback by 1 space."
+  },
+  {
+    "power": "Information Upload",
+    "quote": "The character can transmit loads of information straight into another’s mind.",
+    "power_set": "Telepathy",
+    "prerequisites": "Telepathic Link, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character transmits a knowledge-based label (a trait or tag) of their own to a target with whom they have established a telepathic link—willing or not. The label lasts until the target sleeps."
+  },
+  {
+    "power": "Inspiration",
+    "quote": "The character’s words inspire their allies.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "1 round",
+    "effect": "The character inspires an ally in earshot. The ally gains an edge on all action checks until the start of the character’s next turn."
+  },
+  {
+    "power": "Instant Replay",
+    "quote": "The character rewinds time.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Rank 3",
+    "action": "Reaction",
+    "trigger": "The character fails a check.",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "Once per battle, the character can make a second attempt at a check that they just failed, erasing and replacing the first attempt entirely."
+  },
+  {
+    "power": "Integrity",
+    "quote": "The character can think their way through.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character can use their Logic defense score against Ego attacks too."
+  },
+  {
+    "power": "Invisibility",
+    "quote": "The character turns as transparent as glass.",
+    "power_set": "Illusion",
+    "prerequisites": "Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character becomes invisible. They have an edge on Agility checks to sneak past people, and enemies have trouble on Vigilance checks to perceive them. It’s even harder to spot things that are invisible but aren’t moving. Characters must be actively trying to do so to be able to make a Vigilance check."
+  },
+  {
+    "power": "Jinx",
+    "quote": "The character puts a jinx on a foe.",
+    "power_set": "Magic",
+    "prerequisites": "Chaotic, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character makes an Ego check against the target’s Ego defense. If it succeeds, the target has trouble on all actions. On a Fantastic success, the target loses their next standard action."
+  },
+  {
+    "power": "Jump 1",
+    "quote": "The character can leap about like a frog.",
+    "power_set": "Spider-Powers, Super-Strength",
+    "prerequisites": "Rank 2",
+    "duration": "Permanent",
+    "effect": "The character gains the Jump movement mode with a Jump Speed equal to their Run Speed. They can jump this distance in any direction, vertically as well as horizontally."
+  },
+  {
+    "power": "Jump 2",
+    "quote": "The character can leap around with dazzling speed.",
+    "power_set": "Spider-Powers, Super-Strength",
+    "prerequisites": "Jump 1, Rank 3",
+    "duration": "Permanent",
+    "effect": "The character’s Jump Speed is equal to their rank times their Run Speed. Outside of combat, they can move three times as fast."
+  },
+  {
+    "power": "Jump 3",
+    "quote": "The character can leap into the sky with a single bound.",
+    "power_set": "Spider-Powers, Super-Strength",
+    "prerequisites": "Jump 2, Rank 4",
+    "duration": "Permanent",
+    "effect": "Outside of combat, the character can jump up to 50 times their Jump Speed."
+  },
+  {
+    "power": "Keep Moving",
+    "quote": "The character can keep allies moving under fire.",
+    "power_set": "Tactics",
+    "prerequisites": "None",
+    "action": "Reaction",
+    "trigger": "An ally in line of sight and earshot is demoralized or stunned.",
+    "duration": "Instant",
+    "effect": "The demoralized or stunned condition ends."
+  },
+  {
+    "power": "Kill Zone",
+    "quote": "The character shoots at every target that moves through their kill zone.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Covering Fire, Headshot, Rank 4",
+    "action": "Reaction",
+    "trigger": "An enemy in the character’s line of sight starts to move.",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes a ranged attack on the enemy. If the attack is a success, the enemy takes normal damage. On a Fantastic success, the enemy takes double damage. Either way, the character regains their reaction. Each target can be affected by this attack by this character only once per round."
+  },
+  {
+    "power": "Leaping Leglock",
+    "quote": "The character leaps into the air and snaps their legs around an enemy.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Flying Double Kick, Crushing Grip, Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes a close attack against an enemy. If the attack is a success, the enemy is grabbed and dealt regular damage. On a Fantastic success, the enemy takes double damage and is grabbed and stunned for one round. Either way, both the character and the enemy are knocked prone."
+  },
+  {
+    "power": "Leech Life",
+    "quote": "The character consumes the life force of another.",
+    "power_set": "Magic",
+    "prerequisites": "Rank 2",
+    "action": "Reaction",
+    "trigger": "Target is grabbed.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes an Ego attack against the target’s Resilience defense. If it succeeds, the target takes regular Health damage, and the character heals half that much Health for themselves. On a Fantastic success, the character heals the full Health damage instead."
+  },
+  {
+    "power": "Leg Sweep",
+    "quote": "The character knocks the enemy’s legs from under them.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Fast Strikes, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a close attack. If it succeeds, the enemy takes regular damage and is knocked prone. If it’s a Fantastic success, the enemy is stunned for one round too."
+  },
+  {
+    "power": "Levitation",
+    "quote": "The character can hover and move.",
+    "power_set": "Telekinesis",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character can move through the air in any direction at their Run Speed."
+  },
+  {
+    "power": "Lightning Actions",
+    "quote": "The character has lightning-fast moves.",
+    "power_set": "Super-Speed",
+    "prerequisites": "Rank 4",
+    "duration": "Permanent",
+    "effect": "Once per round, the character can use a standard action as a reaction or a reaction as a standard action. Additionally, they can turn their Marvel die to a Fantastic success when making an initiative check."
+  },
+  {
+    "power": "Machine Telepathy",
+    "quote": "The character can communicate with machines with their mind.",
+    "power_set": "Telepathy",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character can communicate telepathically with one machine at a time, and they must have met or seen the machine before. The communication can be verbal, visual or even more complex, such as imparting location information. There is no limit to the distance of the communication, as long as the character and the machine are in the same dimension."
+  },
+  {
+    "power": "Macrodimensional Travel",
+    "quote": "The character outgrows the universe!",
+    "power_set": "Resize",
+    "prerequisites": "Grow 4, Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character can grow enough to travel into the Macroverse, the Overspace or other dimensions of enlarged space. They can return to their normal size at will."
+  },
+  {
+    "power": "Memory Blip",
+    "quote": "The character erases a bit of someone’s memory.",
+    "power_set": "Telepathy",
+    "prerequisites": "Telepathic Link, Rank 2",
+    "action": "Standard",
+    "duration": "Permanent",
+    "cost": "5 Focus",
+    "effect": "The character causes a target with whom they’ve established a Telepathic Link to forget something that’s happened in the past hour. This gap can be up to an hour in length."
+  },
+  {
+    "power": "Mental Punch",
+    "quote": "The character can blast a foe’s mind in melee.",
+    "power_set": "Telepathy",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character makes a Melee attack against a target. If the attack is a success, it inflicts regular Focus damage (instead of Health damage). On a Fantastic success, the target takes double damage instead and is stunned for one round."
+  },
+  {
+    "power": "Mental Shelter",
+    "quote": "The character can create a shelter for their mind.",
+    "power_set": "Telepathy",
+    "prerequisites": "Uncanny 1, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character extends their mental defenses to protect any chosen people within up to 5 spaces times their rank. The protected targets are granted Focus Damage Reduction equal to the character’s Uncanny power."
+  },
+  {
+    "power": "Microdimensional Travel",
+    "quote": "The character shrinks out of the universe!",
+    "power_set": "Resize",
+    "prerequisites": "Shrink 4, Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character can shrink enough to travel into subatomic realms. They can return to their normal size at will."
+  },
+  {
+    "power": "Mighty 1",
+    "quote": "The character is superhumanly strong.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "Treat the character as one size bigger for lifting, carrying, swinging and throwing things. They also add +1 to their Melee damage multiplier, and they gain a +1 bonus to Melee checks other than attacks."
+  },
+  {
+    "power": "Mighty 2",
+    "quote": "The character could lift a bus.",
+    "power_set": "None",
+    "prerequisites": "Mighty 1, Rank 2",
+    "duration": "Permanent",
+    "effect": "Treat the character as two sizes bigger for lifting, carrying, swinging and throwing things. They also add +2 to their Melee damage multiplier, and they gain a +2 bonus to Melee checks other than attacks."
+  },
+  {
+    "power": "Mighty 3",
+    "quote": "The character could lift a house.",
+    "power_set": "None",
+    "prerequisites": "Mighty 2, Rank 3",
+    "duration": "Permanent",
+    "effect": "Treat the character as three sizes bigger for lifting, carrying, swinging and throwing things. They also add +3 to their Melee damage multiplier, and they gain a +3 bonus to Melee checks other than attacks."
+  },
+  {
+    "power": "Mighty 4",
+    "quote": "The character is among the strongest there are.",
+    "power_set": "None",
+    "prerequisites": "Mighty 3, Rank 4",
+    "duration": "Permanent",
+    "effect": "Treat the character as four sizes bigger lifting, carrying, swinging and throwing things. They also add +4 to their Melee damage multiplier, and they gain a +4 bonus to Melee checks other than attacks."
+  },
+  {
+    "power": "Mind Interrogation",
+    "quote": "The character can root through a target’s mind.",
+    "power_set": "Telepathy",
+    "prerequisites": "Mind Reading, Rank 2",
+    "action": "Standard",
+    "duration": "1 round",
+    "cost": "5 Focus",
+    "effect": "The character can delve into the mind of a single person with whom they have established a telepathic link. This requires a Logic check against the target’s Logic defense. On a success, the character can ask a single simple question and get the answer from the target’s mind. On a Fantastic success, the character can get more complex information."
+  },
+  {
+    "power": "Mind Reading",
+    "quote": "The character can read thoughts.",
+    "power_set": "Telepathy",
+    "prerequisites": "Telepathic Link",
+    "action": "Standard",
+    "duration": "1 round",
+    "effect": "The character can read the thoughts of a single person with whom they have established a Telepathic Link. This requires a Logic check against the target’s Logic defense. On a success, the character can read the target’s surface thoughts. On a Fantastic success, the character can ask a single simple question and get the answer from the target’s mind."
+  },
+  {
+    "power": "Mirage",
+    "quote": "The character can make mirages appear in a target’s mind.",
+    "power_set": "Telepathy",
+    "prerequisites": "Telepathic Link, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character creates a full-sensory mirage that affects any target with whom they have established a link. The mirage can be of anything the character desires, and it can move freely."
+  },
+  {
+    "power": "Mirror Images",
+    "quote": "The character conjures up illusory duplicates of themselves.",
+    "power_set": "Illusion",
+    "prerequisites": "Animated Illusion, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character creates one sound and sight illusory duplicate of themselves per rank. The duplicates look and sound exactly like them and are under their complete control. They start in the same space as the character and instantly move into any open space around them, up to 2 spaces away, during which time the character can swap places with any of the duplicates. The character’s player should secretly record which one is the actual character."
+  },
+  {
+    "power": "Mists Of Morpheus",
+    "quote": "The character causes their foe to fall asleep.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character makes an Ego check against the target’s Vigilance defense. On a success, the target is stunned and remains that way while the character concentrates. On a Fantastic success, the target falls asleep instead."
+  },
+  {
+    "power": "Mists Of Munnopor",
+    "quote": "The character weaves a thick fog.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character creates a thick fog for up to 100 spaces per rank around them that blocks all line of sight beyond 10 spaces and keeps people or creatures inside it from flying, gliding or webslinging."
+  },
+  {
+    "power": "Molecular Destabilization",
+    "quote": "The character causes something to vibrate fast enough to explode.",
+    "power_set": "Super-Speed",
+    "prerequisites": "Speed Run 2, Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes a close attack against an object their size or smaller. If the attack is a success, the object explodes. All targets within 2 spaces of the object—other than the character—take regular damage. On a Fantastic success, double the damage and ignore any Health Damage Reduction."
+  },
+  {
+    "power": "Multiversal Portal",
+    "quote": "The character opens a portal to another universe.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Multiversal Travel Together, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "The character opens a glowing portal in a space next to them that moves anything that enters it between that space and its destination, which forms a matched glowing portal in the other place. The other end of the portal must be in a clear space in another universe that the character has been to. Anything can move through the portal in either direction until it is closed, which the character can do at will."
+  },
+  {
+    "power": "Multiversal Travel",
+    "quote": "The character moves from one universe to another.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Rank 3",
+    "action": "Standard or movement",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character instantly moves from their current universe to another universe. For instance: from Earth-616 to Earth-65. When they move to the other universe, they can arrive in any place they’ve been to before. Otherwise, they arrive at the closest available corresponding space in the other universe."
+  },
+  {
+    "power": "Multiversal Travel Other",
+    "quote": "The character sends someone to another universe.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Multiversal Travel, Rank 4",
+    "action": "Standard, movement, or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes an Ego check against the Vigilance of a target they have grabbed. If the check is successful, the character can send the target to another universe. The target can be sent to any location in that universe that the character has been to before. Otherwise, the target arrives at the closest available corresponding space in the other universe."
+  },
+  {
+    "power": "Multiversal Travel Together",
+    "quote": "The character brings someone with them to another universe.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Multiversal Travel, Rank 3",
+    "action": "Standard, movement or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character moves to a different universe, taking any person they are touching with them. If the target does not wish to come along, the character must grab them first."
+  },
+  {
+    "power": "On Your Feet",
+    "quote": "The character stands their friends on their feet.",
+    "power_set": "Tactics",
+    "prerequisites": "Keep Moving, Rank 2",
+    "action": "Reaction",
+    "trigger": "An ally in line of sight and earshot is knocked prone.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "All prone allies within earshot, who are able to, can immediately stand up for free. Allies currently unable to stand up for any reason are not affected."
+  },
+  {
+    "power": "Operations Center",
+    "quote": "The character directs their allies in combat.",
+    "power_set": "Tactics",
+    "prerequisites": "Combat Support, Focus Fire, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "The character inspires one or more allies of their choice in earshot, up to the character’s Vigilance defense. Affected allies gain an edge on all action checks until the start of the character’s next turn. The character breaks concentration on this power if they use a movement action."
+  },
+  {
+    "power": "Orchestra Of Overkill",
+    "quote": "The character conducts a symphony of shooting.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Dance of Death, Fast Hands, Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes an Agility check and compares that against the Agility defense of every enemy within 10 spaces and in their line of sight. Each success does half regular damage. On a Fantastic success, each enemy takes full damage instead and is bleeding."
+  },
+  {
+    "power": "Orders",
+    "quote": "The character forces someone to follow a complex set of orders.",
+    "power_set": "Telepathy",
+    "prerequisites": "Command, Rank 4",
+    "action": "Standard",
+    "duration": "Permanent",
+    "cost": "15 Focus",
+    "effect": "The character gives an order to a target with whom they’ve established a Telepathic Link and who has no Focus left. The character makes a Logic check against the target’s Logic defense. On a success, the target complies with the orders. On a Fantastic success, the character gains an edge the next time they use this power against this same target."
+  },
+  {
+    "power": "Partial Phase",
+    "quote": "The character can make a portion of themselves tangible or intangible.",
+    "power_set": "Phasing",
+    "prerequisites": "Phase Self, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character has greater control over their phasing ability. They can make any portion of their body and clothing tangible or intangible, as they like."
+  },
+  {
+    "power": "Penance Stare",
+    "quote": "The character can punish the wicked with their gaze.",
+    "power_set": "Magic",
+    "prerequisites": "Cursed",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character makes an Ego attack against a target character within 3 spaces per rank. If it’s a success, the target takes Focus damage. On a Fantastic success, the target takes double damage and is paralyzed for one round."
+  },
+  {
+    "power": "Phase Object",
+    "quote": "The character can make something they’re touching intangible.",
+    "power_set": "Phasing",
+    "prerequisites": "Phase Self, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character can make any object they are touching intangible. The object (and things attached to or inside of it) can be up to their rank in sizes bigger than them. For example, if they are Rank 5, the object can be 5 sizes bigger than them. For an average person, this would be Gargantuan."
+  },
+  {
+    "power": "Phase Other",
+    "quote": "The character can phase someone they are touching.",
+    "power_set": "Phasing",
+    "prerequisites": "Phase Self, Rank 3",
+    "action": "Standard or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character can make any person (and their clothing) they are touching intangible. The character can also phase any people the initial person is touching or grabbing. People the character has phased remain tangible to each other."
+  },
+  {
+    "power": "Phase Self",
+    "quote": "The character can become as intangible as a ghost.",
+    "power_set": "Phasing",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character (and their clothing) becomes intangible and can move through anything as if it wasn’t there. Nothing can physically affect them, nor can they affect anything else that is not phasing along with them."
+  },
+  {
+    "power": "Phase Walk",
+    "quote": "The character can walk on air.",
+    "power_set": "Phasing",
+    "prerequisites": "Phase Self, Rank 2",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "When phasing, the character can move freely in any direction through anything—not just air, but also water, buildings and so on—at their Run Speed. The character can take anything or anyone they are phasing along with them."
+  },
+  {
+    "power": "Point-blank Parry",
+    "quote": "When the enemy steps in, the character lets loose.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Rank 2",
+    "action": "Reaction",
+    "trigger": "An enemy within 2 spaces misses an attack against the character.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a ranged attack against the enemy who missed them. If the attack is a success, the enemy takes regular damage. On a Fantastic success, the enemy takes double damage and is bleeding."
+  },
+  {
+    "power": "Possess Vehicle",
+    "quote": "The character takes control of a vehicle.",
+    "power_set": "Magic",
+    "prerequisites": "Cursed, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character takes magical control of a vehicle they are inside of or touching. Hellfire engulfs the outside of the vehicle, but it does no damage to it. Anyone that comes into contact with it, though, takes regular damage with a damage multiplier equal to the character’s rank. On a Fantastic success, it inflicts regular Health damage and regular Focus damage instead."
+  },
+  {
+    "power": "Possession",
+    "quote": "The character takes over someone else’s body.",
+    "power_set": "Magic",
+    "prerequisites": "Cursed, Rank 5",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "20 Focus",
+    "effect": "The character makes an Ego check with trouble against the Ego defense of a character who has no Focus left. On a success, the character takes over the target’s body completely."
+  },
+  {
+    "power": "Powerful Hex",
+    "quote": "The character simulates another power with their magic.",
+    "power_set": "Magic",
+    "prerequisites": "Chaotic, Rank 2",
+    "action": "Standard",
+    "duration": "Varies",
+    "cost": "5 or more Focus",
+    "effect": "The character casts a hex that allows them to use any other power that they have the rank to use, even if they would not normally meet the power’s other prerequisites. They must pay whatever the regular Focus cost is for that power, plus 5 Focus."
+  },
+  {
+    "power": "Probability-manipulation Hex",
+    "quote": "The character makes unlikely things happen.",
+    "power_set": "Magic",
+    "prerequisites": "Chaotic, Rank 3",
+    "action": "Standard or reaction",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "When an ally within 5 spaces times the character’s rank attempts a check on which they have trouble, this hex eliminates all trouble and gives them an edge instead."
+  },
+  {
+    "power": "Protection Hex",
+    "quote": "The character casts a hex to protect themselves.",
+    "power_set": "Magic",
+    "prerequisites": "Chaotic, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character produces a hex to help protect themselves. Make an Ego check. The result is now the character’s defense against any attack. If the result isn’t as high as the character would like, they can end the hex and try again later. On a Fantastic success, the hex also grants Health Damage Reduction 1 for its duration."
+  },
+  {
+    "power": "Quick Phase",
+    "quote": "The character can become as intangible as a ghost.",
+    "power_set": "Phasing",
+    "prerequisites": "Phase Self, Rank 2",
+    "action": "Reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character and their clothing can instantly become intangible."
+  },
+  {
+    "power": "Quick Toss",
+    "quote": "The character tosses a person like a toy.",
+    "power_set": "Super-Strength",
+    "prerequisites": "Crushing Grip, Mighty 1, Rank 3",
+    "action": "Reaction",
+    "trigger": "A person the character can pick up is grabbed.",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character throws the grabbed person at another target. The range is determined by the level of the character’s Mighty power and the grabbed person's size. The character makes a ranged attack against the target. A failure inflicts regular damage on the thrown person, who falls prone within 1 space of the target. If the attack is a success, the target takes regular damage too. On a Fantastic success, the target is knocked prone as well."
+  },
+  {
+    "power": "Rally On Me",
+    "quote": "The character rallies their friends around them.",
+    "power_set": "Tactics",
+    "prerequisites": "On Your Feet, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "Any allies in earshot can be affected, up to a number equal to the character’s Vigilance. Each affected ally can move toward the character at half speed. If they are within the character’s reach at the end of this move, they recover lost Focus equal to 5 times the character’s rank. The character can use this power once per battle."
+  },
+  {
+    "power": "Regain Focus",
+    "quote": "The character takes a moment to find their center.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Unflappable Poise, Untouchable Position, Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "None",
+    "effect": "The character recovers Focus equal to their Vigilance."
+  },
+  {
+    "power": "Reinforced Skeleton",
+    "quote": "The character’s bones have been reinforced or replaced with a super-strong alloy or metal.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character gains Health Damage Reduction 1."
+  },
+  {
+    "power": "Resize Object",
+    "quote": "The character can change the size of an object within reach.",
+    "power_set": "Resize",
+    "prerequisites": "Grow 2 or Shrink 2, Rank 3",
+    "action": "Standard",
+    "duration": "Permanent",
+    "cost": "10 Focus",
+    "effect": "The character can make an object within reach grow or shrink. The character can resize the object as much as their own Grow or Shrink power would allow them to."
+  },
+  {
+    "power": "Resize Other",
+    "quote": "The character can resize someone they are touching.",
+    "power_set": "Resize",
+    "prerequisites": "Grow 2 or Shrink 2, Rank 3",
+    "action": "Standard or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Permanent",
+    "cost": "10 Focus",
+    "effect": "The character can resize any person (and their clothing) they are touching. The character can resize the object as much as their own Grow or Shrink power would allow them to. If the target does not wish to be resized, the character must grab them first."
+  },
+  {
+    "power": "Return Fire",
+    "quote": "The character responds to an assault with a hail of shots.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Suppressive Fire, Rank 2",
+    "action": "Reaction",
+    "trigger": "An enemy declares an attack against the character.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes an Agility attack against a target’s Vigilance defense. If the attack is a success, apply Health Damage Reduction normally. Any damage taken is then applied to the target’s Focus instead. If it’s a Fantastic success, the damage is doubled and, if the target takes any Focus damage, they are stunned for 1 round."
+  },
+  {
+    "power": "Reverse Punch",
+    "quote": "The character can reach past an enemy and punch them from behind.",
+    "power_set": "Plasticity",
+    "prerequisites": "Flexible Bones 1, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a close attack with an edge on an enemy. If the attack is a success, the enemy takes regular damage. On a Fantastic success, the enemy takes double damage and is stunned for one round."
+  },
+  {
+    "power": "Reverse-momentum Throw",
+    "quote": "The character uses the momentum of their attacker to hurl them to the ground.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Defense Stance, Rank 2",
+    "action": "Reaction",
+    "trigger": "While Defense Stance is active, a close attack against the character misses.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The attacker is knocked prone and takes half the damage their attack would have inflicted if it had succeeded."
+  },
+  {
+    "power": "Rico-shield",
+    "quote": "The character ricochets their shield from target to target.",
+    "power_set": "Shield Bearer",
+    "prerequisites": "Hurled Shield Bash, Rank 3",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "10 spaces times the character’s rank",
+    "cost": "10 Focus",
+    "effect": "The character makes a ranged attack on a target. If the attack is a success, the target takes regular damage. On a Fantastic success, the target is also knocked prone, and the character can make an extra attack on another target, adding the extra range between the two targets to the new attack roll. This can be repeated until an attack is not a Fantastic success."
+  },
+  {
+    "power": "Riposte",
+    "quote": "Seeing the enemy off balance, the character strikes back.",
+    "power_set": "Melee Weapons",
+    "prerequisites": "None",
+    "action": "Reaction",
+    "trigger": "An enemy makes a close attack against the character that fails.",
+    "duration": "Instant",
+    "effect": "The character makes a close attack on the enemy who just missed them. If the attack is a success, the enemy takes regular damage. On a Fantastic success, the enemy takes double damage and suffers the weapon’s special effect."
+  },
+  {
+    "power": "Rubberneck",
+    "quote": "The character can lengthen and twist their neck.",
+    "power_set": "Plasticity",
+    "prerequisites": "Flexible Bones 1, Extended Reach 1",
+    "duration": "Permanent",
+    "effect": "The character can move their head away from their body, up to their reach, to establish a line of sight to a target."
+  },
+  {
+    "power": "Run On Water",
+    "quote": "The character can run across water.",
+    "power_set": "Super-Speed",
+    "prerequisites": "Speed Run 2, Rank 3",
+    "duration": "Permanent",
+    "effect": "The character can run so that their feet skip across the surface of water. As long as they keep running (even in place), they do not sink."
+  },
+  {
+    "power": "Scatter",
+    "quote": "The character warns allies to take evasive action.",
+    "power_set": "Tactics",
+    "prerequisites": "Hit the Dirt, Rank 3",
+    "action": "Reaction",
+    "trigger": "An enemy in line of sight declares an attack on an ally within earshot.",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "Any allies in earshot can be affected, up to a number equal to the character’s rank. Each affected ally can move away from you at half Speed and then fall prone. If this makes the ally an ineligible target for the initial attack, that attack automatically fails."
+  },
+  {
+    "power": "Sense Sins",
+    "quote": "The character can look into a person’s soul.",
+    "power_set": "Magic",
+    "prerequisites": "Cursed",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character looks into a target’s eyes and makes an Ego check against the target’s Ego defense. On a success, the character can sense what sorts of horrible things the target has done. On a Fantastic success, they can sense what sorts of horrible things the target intends to do in the immediate future."
+  },
+  {
+    "power": "Sense Supernatural",
+    "quote": "The character can sense the supernatural.",
+    "power_set": "Magic",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character can reach out with their mind to sense the presence of supernatural people, places or things within 100 spaces per rank. This tells them the location of the supernatural thing and its general status."
+  },
+  {
+    "power": "Shape-shift",
+    "quote": "The character can change forms.",
+    "power_set": "None",
+    "prerequisites": "Disguise, Rank 3",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked or otherwise in danger.",
+    "duration": "Permanent",
+    "effect": "The character can change into another form no more than one size bigger or smaller than their regular form."
+  },
+  {
+    "power": "Shield 1",
+    "quote": "The character wields a personal shield.",
+    "power_set": "Shield Bearer",
+    "prerequisites": "None",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Concentration",
+    "effect": "The character gains Health Damage Reduction 1."
+  },
+  {
+    "power": "Shield 2",
+    "quote": "The character’s shield protects them like a wall.",
+    "power_set": "Shield Bearer",
+    "prerequisites": "Shield 1, Rank 2",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character gains Health Damage Reduction 2."
+  },
+  {
+    "power": "Shield 3",
+    "quote": "The character’s shield protects better than a tank.",
+    "power_set": "Shield Bearer",
+    "prerequisites": "Shield 2, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "The character gains Health Damage Reduction 3."
+  },
+  {
+    "power": "Shield 4",
+    "quote": "The character’s shield protects like a concrete barrier.",
+    "power_set": "Shield Bearer",
+    "prerequisites": "Shield 3, Rank 6",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Concentration",
+    "cost": "25 Focus",
+    "effect": "The character gains Health Damage Reduction 4."
+  },
+  {
+    "power": "Shield Bash",
+    "quote": "The character bashes a foe with their shield.",
+    "power_set": "Shield Bearer",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character makes a close attack on an enemy within their reach. If the attack is a success, the enemy takes regular damage. On a Fantastic success, the enemy takes double damage and is knocked prone."
+  },
+  {
+    "power": "Shield Deflection",
+    "quote": "The character uses their shield to deflect attacks.",
+    "power_set": "Shield Bearer",
+    "prerequisites": "None",
+    "action": "Reaction",
+    "trigger": "The character is the target of an attack against their Agility defense.",
+    "duration": "Instant",
+    "effect": "The attack has trouble."
+  },
+  {
+    "power": "Shield Of The Seraphim",
+    "quote": "The character produces a magical shield.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 3",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character produces a magical shield that protects them from physical damage. Any attacks against them that do 20 points of damage or less are instantly absorbed, and the protection continues. If an attack does more than 20 points of damage, it destroys the protection, allowing excess damage through."
+  },
+  {
+    "power": "Shield Wall",
+    "quote": "The character stands like an impenetrable wall.",
+    "power_set": "Shield Bearer",
+    "prerequisites": "Brace for Impact, Rank 3",
+    "action": "Movement",
+    "duration": "Concentration",
+    "effect": "Attacks against the character have trouble. The character breaks concentration on this power if they use a movement action."
+  },
+  {
+    "power": "Shrink 1",
+    "quote": "The character thinks small.",
+    "power_set": "Resize",
+    "prerequisites": "None",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Permanent",
+    "effect": "The character can shrink down to little size. They can return to their normal size at will."
+  },
+  {
+    "power": "Shrink 2",
+    "quote": "The character becomes even smaller!",
+    "power_set": "Resize",
+    "prerequisites": "Shrink 1",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Permanent",
+    "effect": "The character can shrink down to tiny size. They can return to their normal size at will."
+  },
+  {
+    "power": "Shrink 3",
+    "quote": "The character is smaller than an action figure.",
+    "power_set": "Resize",
+    "prerequisites": "Shrink 2",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Permanent",
+    "effect": "The character can shrink down to miniature size. They can return to their normal size at will."
+  },
+  {
+    "power": "Shrink 4",
+    "quote": "The character is so small that they’re hard to see.",
+    "power_set": "Resize",
+    "prerequisites": "Shrink 3",
+    "action": "Standard or Reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Permanent",
+    "effect": "The character can shrink down to microscopic size. They can return to their normal size at will."
+  },
+  {
+    "power": "Shrinking Dodge",
+    "quote": "The character shrinks to avoid an attack.",
+    "power_set": "Resize",
+    "prerequisites": "Shrink 1, Rank 2",
+    "action": "Reaction",
+    "trigger": "The character is attacked.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The attacker has trouble on the attack."
+  },
+  {
+    "power": "Shut Down Powers",
+    "quote": "The character removes all of a target’s powers!",
+    "power_set": "Power Control",
+    "prerequisites": "Dampen Power, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "15 or more Focus",
+    "effect": "The character picks another character within 20 spaces and makes an Ego attack against them. On a success, they remove all of a target’s powers."
+  },
+  {
+    "power": "Silence Area",
+    "quote": "An unnatural silence falls over the area.",
+    "power_set": "Illusion",
+    "prerequisites": "Illumination, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "An area up to 5 spaces wide per the character’s rank—centered on anything the character wishes, within 50 spaces—is filled with silence. Those inside the area cannot hear anything, and no one outside of it can hear any noises made inside it. The character must remain within 50 spaces of the area to avoid breaking concentration."
+  },
+  {
+    "power": "Silence Self",
+    "quote": "Silence falls on the character.",
+    "power_set": "Illusion",
+    "prerequisites": "Illumination, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character makes no noise at all—unless they wish to. They have an edge on Agility checks to sneak past people, and enemies have trouble on Vigilance checks to perceive them."
+  },
+  {
+    "power": "Slip Free",
+    "quote": "The character is impossible to restrain.",
+    "power_set": "Plasticity",
+    "prerequisites": "None",
+    "action": "Reaction",
+    "trigger": "The character is grabbed or pinned.",
+    "duration": "Instant",
+    "effect": "The character is not grabbed or pinned."
+  },
+  {
+    "power": "Slow-motion Dodge",
+    "quote": "Time seems to slow down for the character, making it easy to dodge enemy attacks.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "action": "Reaction",
+    "trigger": "An enemy makes an attack against the character’s Agility defense.",
+    "duration": "Instant",
+    "effect": "The enemy has trouble on the attack."
+  },
+  {
+    "power": "Slow-motion Shoot-dodge",
+    "quote": "The character dives sideways, weapons blazing, hanging in midair for a split second.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Slow-Motion Dodge, Weapons Blazing, Rank 3",
+    "action": "Standard",
+    "duration": "Instant + 1 round",
+    "cost": "10 Focus",
+    "effect": "The character splits their attack to make two ranged attacks against separate targets (or they can focus a single attack on a single target). Make a single Agility check and compare it to the targets’ Agility defenses. On a success, an affected target takes half regular damage. On a Fantastic success, an affected target takes full damage, and the character can make a bonus attack with this power against any available target, with the same effect."
+  },
+  {
+    "power": "Smash",
+    "quote": "SMASH!",
+    "power_set": "Super-Strength",
+    "prerequisites": "Clobber, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 or more Focus",
+    "effect": "The character makes a close attack with an edge. For this attack, add +1 to the character’s Melee damage bonus for every 2 points of Focus they spend. On a success, an affected target takes that total damage. On a Fantastic success, an affected target takes double that total damage and is stunned for one round."
+  },
+  {
+    "power": "Snap Shooting",
+    "quote": "The character shoots from the hip with deadly speed.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character splits their attack to make two ranged attacks against separate targets (or they can focus a single attack on a single target). Make a single Agility check and compare it to the targets’ Agility defenses. On a success, an affected target takes half regular damage. On a Fantastic success, an affected target takes full damage and is bleeding."
+  },
+  {
+    "power": "Sniping",
+    "quote": "The character takes aim and shoots with deadly accuracy.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Rank 2",
+    "action": "Both standard and movement (character cannot move this turn)",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a ranged attack against an enemy at least 20 spaces away. If the attack is a success, the enemy takes regular damage. On a Fantastic success, the enemy takes triple damage instead."
+  },
+  {
+    "power": "Speed Blast",
+    "quote": "The character fans their arms fast enough to blast a target with a gust of air!",
+    "power_set": "Super-Speed",
+    "prerequisites": "Speed Run 2, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "10",
+    "cost": "5 Focus",
+    "effect": "The character makes a ranged attack. If it succeeds, the target is stunned for one round. On a Fantastic success, the character is knocked prone too."
+  },
+  {
+    "power": "Speed Run 1",
+    "quote": "The character runs as fast as a car!",
+    "power_set": "Super-Speed",
+    "prerequisites": "Rank 2",
+    "duration": "Permanent",
+    "effect": "Multiply the character’s regular Run Speed by their rank to get their new Run Speed. Outside of combat, they can move three times as fast."
+  },
+  {
+    "power": "Speed Run 2",
+    "quote": "The character runs as fast as a jet!",
+    "power_set": "Super-Speed",
+    "prerequisites": "Speed Run 1, Rank 3",
+    "duration": "Permanent",
+    "effect": "Outside of combat, the character can move up to 50 times as fast as their increased Run Speed."
+  },
+  {
+    "power": "Speed Swim",
+    "quote": "The character can swim faster than a dolphin!",
+    "power_set": "Super-Speed",
+    "prerequisites": "Rank 2",
+    "duration": "Permanent",
+    "effect": "Multiply the character’s regular Swim Speed by their rank to get their new Swim Speed. Outside of combat, they can move three times as fast."
+  },
+  {
+    "power": "Spider-dodge",
+    "quote": "The character dodges attacks with a spiderlike scuttle.",
+    "power_set": "Spider-Powers",
+    "prerequisites": "None",
+    "action": "Reaction",
+    "trigger": "Someone makes an Agility attack against the character.",
+    "duration": "Instant",
+    "effect": "The attacker has trouble on the attack. If the attack misses, the character can leap in any direction at their Jump Speed."
+  },
+  {
+    "power": "Spider-pheromones",
+    "quote": "The character exudes pheromones that affect those nearby.",
+    "power_set": "Spider-Powers",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "range": "5 spaces",
+    "effect": "The character has an edge on Ego (intimidation) checks against people who are not attracted to their gender. They also have an edge on Ego (persuasion) checks against people who are attracted to their gender."
+  },
+  {
+    "power": "Spider-sense",
+    "quote": "The character has a sense of danger that tingles when threats are near.",
+    "power_set": "Spider-Powers",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character has an edge on initiative checks and on Vigilance checks to perceive danger. Enemies have trouble on Agility checks against the character’s Vigilance defense. The character also gains a permanent +2 bonus to their Agility defense."
+  },
+  {
+    "power": "Spider-strike",
+    "quote": "The character strikes in a blur of punches, kicks and webbing.",
+    "power_set": "Spider-Powers",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character splits their attack to make two close attacks against separate targets within reach (or they can focus a single attack on a single target). Make a single Melee check and compare it to the targets’ Melee defenses. On a success, the affected target takes half regular damage. On a Fantastic success, the affected target takes full damage and is paralyzed by webbing. Breaking free from webbing requires a Melee check (target number 16)."
+  },
+  {
+    "power": "Spin & Throw",
+    "quote": "The character throws a grabbed foe to the ground.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Grappling Technique, Rank 2",
+    "action": "Reaction",
+    "trigger": "An enemy the character can pick up is grabbed.",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a Melee attack against the grabbed foe. If the attack is a success, the enemy takes regular damage and is knocked prone. On a Fantastic success, the enemy takes double damage and is knocked prone, pinned and stunned for one round."
+  },
+  {
+    "power": "Static Illusion",
+    "quote": "By manipulating visual light, the character creates a realistic hologram.",
+    "power_set": "Illusion",
+    "prerequisites": "Illumination",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character creates a visual-only illusion anywhere in line of sight, within 50 spaces. The illusion can be of anything up to three sizes larger than the character, but it must be static. The character breaks concentration if they move beyond 50 spaces from the illusion or lose line of sight of it."
+  },
+  {
+    "power": "Steal Powers",
+    "quote": "The character removes all of a target’s powers and takes them for their own!",
+    "power_set": "Power Control",
+    "prerequisites": "Clone Powers, Shut Down Powers, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Concentration",
+    "cost": "15 or more Focus",
+    "effect": "The character makes an Ego attack against the grabbed target. On a success, they remove all of the target’s powers and take them for their own. They can now use those powers as if they were always theirs. If the target’s powers have costs, the character must pay the highest of them, or a minimum of 15 Focus."
+  },
+  {
+    "power": "Stilt Steps",
+    "quote": "The character can stretch their legs like extendable stilts.",
+    "power_set": "Plasticity",
+    "prerequisites": "Extended Reach 1, Rank 2",
+    "action": "Movement",
+    "duration": "Concentration",
+    "effect": "The character’s Run Speed doubles, as does their Climb Speed."
+  },
+  {
+    "power": "Stopping Power",
+    "quote": "The character keeps shooting at the target.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Double Tap, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a ranged attack on an enemy. If the attack is a success, the enemy takes regular damage. On a Fantastic success, the enemy takes double damage, and the character can make another regular ranged attack on the same target."
+  },
+  {
+    "power": "Sturdy 1",
+    "quote": "The character has protection from physical damage.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character’s body is so sturdy that they have Health Damage Reduction 1."
+  },
+  {
+    "power": "Sturdy 2",
+    "quote": "The character is protected as if by steel.",
+    "power_set": "None",
+    "prerequisites": "Sturdy 1, Rank 2",
+    "duration": "Permanent",
+    "effect": "The character gains Health Damage Reduction 2."
+  },
+  {
+    "power": "Sturdy 3",
+    "quote": "The character is protected like a tank.",
+    "power_set": "None",
+    "prerequisites": "Sturdy 2, Rank 4",
+    "duration": "Permanent",
+    "effect": "The character gains Health Damage Reduction 3."
+  },
+  {
+    "power": "Sturdy 4",
+    "quote": "The character is protected like a battleship.",
+    "power_set": "None",
+    "prerequisites": "Sturdy 3, Rank 6",
+    "duration": "Permanent",
+    "effect": "The character gains Health Damage Reduction 4."
+  },
+  {
+    "power": "Summon Portal",
+    "quote": "The character opens a portal between space and dimensions.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "The character opens a glowing portal in a space next to them that teleports anything that enters it between that space and its destination, which forms a matched glowing portal in the other place. This can be between any two points in the Multiverse, as long as the character has seen the destination. Anything can move through the portal in either direction until it is closed, which the character can do at will."
+  },
+  {
+    "power": "Supernova",
+    "quote": "The character blasts out a massive burst of their element.",
+    "power_set": "Elemental Control",
+    "prerequisites": "Elemental Blast, Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 or more Focus",
+    "effect": "The character makes an Ego check and compares that against the Resilience defense of every enemy within 10 spaces. For these attacks, add +1 to the character’s Ego damage bonus for every 2 points of Focus they spend. On a success, an affected target takes half that total damage. On a Fantastic success, an affected target takes full damage and suffers the elemental type’s special effect."
+  },
+  {
+    "power": "Suppressive Fire",
+    "quote": "The character forces their foes to keep their heads down.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character makes an Agility attack against a target’s Vigilance defense. If the attack is a success, apply Health Damage Reduction normally. Any damage taken is then applied to the target’s Focus instead. If it’s a Fantastic success, the damage is doubled, and if the target takes any Focus damage, they are stunned for one round."
+  },
+  {
+    "power": "Swipe Power",
+    "quote": "The character removes a target’s power and takes it for their own!",
+    "power_set": "Power Control",
+    "prerequisites": "Copy Powers, Dampen Power, Rank 3",
+    "action": "Standard or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Concentration",
+    "cost": "10 or more Focus",
+    "effect": "The character makes an Ego attack against the grabbed target. On a success, they remove one of the target’s powers and take it for their own. They can now use that power as if it was always theirs. If the power has a cost, the character must pay it or a minimum of 10 Focus."
+  },
+  {
+    "power": "Telekinetic Attack",
+    "quote": "The character can punch or choke an enemy with their mind.",
+    "power_set": "Telekinesis",
+    "prerequisites": "Telekinetic Manipulation, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "Varies",
+    "cost": "5 Focus",
+    "effect": "The character makes a Logic attack against the Melee defense of a target within 5 spaces times the character’s rank. If the attack is a success, it inflicts regular damage. On a Fantastic success, the damage is doubled instead, and the target is stunned for one round."
+  },
+  {
+    "power": "Telekinetic Barrier",
+    "quote": "The character forms a protective barrier with their mind.",
+    "power_set": "Telekinesis",
+    "prerequisites": "Telekinetic Grab, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character forms an invisible barrier in their line of sight and up to 10 spaces away per rank. This covers up to 2 spaces across (vertically/horizontally) per their rank. The character makes a Logic check and compares the results against the Agility defense of any target in the affected spaces. On a success, the character chooses which side of the barrier the target winds up on. On a failure, the target chooses. On a Fantastic success, the target is paralyzed for one round too."
+  },
+  {
+    "power": "Telekinetic Crush",
+    "quote": "The character mentally squeezes a foe.",
+    "power_set": "Telekinesis",
+    "prerequisites": "Telekinetic Grab, Rank 3",
+    "action": "Reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character makes a Logic attack against the grabbed target’s Resilience defense. If it’s a success, the target takes regular damage. On a Fantastic success, the target takes double damage and is pinned."
+  },
+  {
+    "power": "Telekinetic Grab",
+    "quote": "The character can grab a foe with their mind.",
+    "power_set": "Telekinesis",
+    "prerequisites": "Telekinetic Manipulation, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "range": "Varies",
+    "cost": "5 Focus",
+    "effect": "The character makes a Logic attack against the Melee defense of a target within 5 spaces times the character’s rank. If the attack is a success, the character grabs the target with their mind. On a Fantastic success, the target can also be pinned. Breaking free requires a successful Melee check against target number 20."
+  },
+  {
+    "power": "Telekinetic Manipulation",
+    "quote": "The character can handle physical things with their mind.",
+    "power_set": "Telekinesis",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "range": "Varies",
+    "effect": "The character can manipulate objects in their line of sight with their mind. The maximum range for this is 5 spaces times the character’s rank. If someone tries to prevent the character from taking control of an object, the character makes a Logic check against the opponent’s Agility defense."
+  },
+  {
+    "power": "The character uses their mind to physically protect themselves.",
+    "quote": "Power Set: Telekinesis",
+    "prerequisites": "Telekinetic Barrier, Rank 2",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked or otherwise in danger.",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character’s personal telekinetic field protects them. Any attacks against them that do 10 points of damage or less are instantly absorbed, and the protection continues. If an attack does more than 10 points of damage, it destroys the protection, allowing excess damage through."
+  },
+  {
+    "power": "Telekinetic Protection 2",
+    "quote": "The character toughens their mind against physical damage.",
+    "power_set": "Telekinesis",
+    "prerequisites": "Telekinetic Protection 1, Rank 3",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked or otherwise in danger.",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character’s personal telekinetic field protects them. Any attacks against them that do 20 points of damage or less are instantly absorbed, and the protection continues. If an attack does more than 20 points of damage, it destroys the protection, allowing excess damage through."
+  },
+  {
+    "power": "Telekinetic Protection 3",
+    "quote": "The character’s mind protects them like a tank.",
+    "power_set": "Telekinesis",
+    "prerequisites": "Telekinetic Protection 2, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked or otherwise in danger.",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "The character’s personal telekinetic field protects them. Any attacks against them that do 30 points of damage or less are instantly absorbed, and the protection continues. If an attack does more than 30 points of damage, it destroys the protection, allowing excess damage through."
+  },
+  {
+    "power": "Telekinetic Protection 4",
+    "quote": "The character’s mind protects them like a fortress.",
+    "power_set": "Telekinesis",
+    "prerequisites": "Telekinetic Protection 3, Rank 5",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked or otherwise in danger.",
+    "duration": "Concentration",
+    "cost": "20 Focus",
+    "effect": "The character’s personal telekinetic field grants them protection. Any attacks against them that do 40 points of damage or less are instantly absorbed, and the protection continues. If an attack does more than 40 points of damage, it destroys the protection, allowing excess damage through."
+  },
+  {
+    "power": "Telekinetic Reinforcement",
+    "quote": "The character reinforces their defenses with their mind.",
+    "power_set": "Telekinesis",
+    "prerequisites": "Telekinetic Protection 1",
+    "action": "Reaction",
+    "trigger": "A character using a telekinetic power that grants damage protection is attacked.",
+    "duration": "Instant",
+    "cost": "Varies",
+    "effect": "The character can transfer any Health damage that gets through a telekinetic power that grants damage protection to their Focus instead, leaving the protection intact."
+  },
+  {
+    "power": "Telekinetic Sphere",
+    "quote": "The character can create a protective sphere with their mind.",
+    "power_set": "Telekinesis",
+    "prerequisites": "Telekinetic Protection 1",
+    "action": "Standard or reaction",
+    "trigger": "The character is attacked or otherwise in danger.",
+    "duration": "Concentration",
+    "cost": "Same as the character’s Telekinetic Protection power",
+    "effect": "The character envelops themselves—and any chosen people within up to 5 spaces times their rank—in a protective telekinetic sphere."
+  },
+  {
+    "power": "Telekinetic Toss",
+    "quote": "The character can throw a foe around with their mind.",
+    "power_set": "Telekinesis",
+    "prerequisites": "Telekinetic Grab, Rank 3",
+    "action": "Standard or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "range": "Varies",
+    "cost": "10 Focus",
+    "effect": "The character can telekinetically throw a person that they’ve telekinetically grabbed at another target. The range for the throw is 5 spaces times the character’s rank."
+  },
+  {
+    "power": "Telepathic Blast",
+    "quote": "The character can mentally blast a foe’s mind.",
+    "power_set": "Telepathy",
+    "prerequisites": "Telepathic Link, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a Logic attack against a target in line of sight. If the attack is a success, it inflicts regular Focus damage. On a Fantastic success, the target takes double damage instead and is stunned for one round."
+  },
+  {
+    "power": "Telepathic Link",
+    "quote": "The character can speak with another telepathically.",
+    "power_set": "Telepathy",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The character can communicate telepathically with one person at a time, and they must have met or seen the other person before. The communication can be verbal, visual or even more complex, such as imparting location information. There is no limit to the distance of the communication, as long as the character and the target are in the same dimension. If the other person does not wish to speak with the character, the target can automatically tune them out. To force a telepathic link, the character can make a Logic check against the target’s Vigilance defense. On a failure, the character cannot attempt to communicate with the target in this way for the rest of the day. On a success, the character can communicate with the target for as long as the concentration lasts. On a Fantastic success, the target cannot shut the character out for the rest of the day."
+  },
+  {
+    "power": "Telepathic Network",
+    "quote": "The character can speak telepathically with a group of people.",
+    "power_set": "Telepathy",
+    "prerequisites": "Telepathic Link, Rank 2",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "5 Focus",
+    "effect": "The character can communicate telepathically with a group of willing, previously linked people, each of whom they have met or seen before. The communication can be verbal, visual or even more complex, such as imparting location information. The group can number up to five people per rank. There is no limit to the distance of the communication, as long as everyone involved is in the same dimension."
+  },
+  {
+    "power": "Telepathic Possession",
+    "quote": "The character mentally takes over someone else’s body.",
+    "power_set": "Telepathy",
+    "prerequisites": "Orders, Rank 5",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "20 Focus",
+    "effect": "The character possesses a target with whom they’ve established a Telepathic Link and who has no Focus left. The character makes a Logic check with trouble against the target’s Logic defense. On a success, the character takes over the target’s body completely."
+  },
+  {
+    "power": "Teleport 1",
+    "quote": "The character teleports someplace else.",
+    "power_set": "Teleportation",
+    "prerequisites": "Blink",
+    "action": "Standard or movement",
+    "duration": "Instant",
+    "effect": "The character teleports into a clear space they can see or have been to, up to 10 times their rank in spaces away. Outside of combat, they can teleport up to 100 times their rank in spaces away."
+  },
+  {
+    "power": "Teleport 2",
+    "quote": "The character teleports great distances.",
+    "power_set": "Teleportation",
+    "prerequisites": "Teleport 1",
+    "action": "Standard or movement",
+    "duration": "Instant",
+    "effect": "Outside of combat, the character can teleport up to 1,000 times their rank in spaces away."
+  },
+  {
+    "power": "Teleport Blind",
+    "quote": "The character teleports someplace new to them.",
+    "power_set": "Teleportation",
+    "prerequisites": "Teleport 1, Rank 3",
+    "action": "Standard or movement",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character teleports to someplace they’ve never been and never seen, up to 10 times their rank in spaces away. Outside of combat, they can teleport up to 100 times their rank in spaces away."
+  },
+  {
+    "power": "Teleport Object",
+    "quote": "The character can teleport something else with them.",
+    "power_set": "Teleportation",
+    "prerequisites": "Teleport 1, Rank 3",
+    "action": "Standard",
+    "duration": "Permanent",
+    "cost": "10 Focus",
+    "effect": "The character can teleport along with them an object within reach as far away as their Teleport power normally allows them."
+  },
+  {
+    "power": "Teleport Other",
+    "quote": "The character can teleport someone else away.",
+    "power_set": "Teleportation",
+    "prerequisites": "Teleport 2, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes an Ego check against the Vigilance defense of a target they have grabbed. If the check is successful, the character can teleport the target as far away as their Teleport power normally allows them in combat."
+  },
+  {
+    "power": "Teleport Together",
+    "quote": "The character can teleport someone they are touching.",
+    "power_set": "Teleportation",
+    "prerequisites": "Teleport 1, Rank 3",
+    "action": "Standard, movement or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character teleports, taking any person they are touching with them, into clear spaces they can see or have been to, up to 10 times their rank in spaces away. Outside of combat, they can teleport up to 100 times their rank in spaces away."
+  },
+  {
+    "power": "Teleportal",
+    "quote": "The character opens a portal to another place.",
+    "power_set": "Teleportation",
+    "prerequisites": "Teleport 1, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "The character opens a glowing portal in a space next to them that teleports anything that enters it between that space and its destination, which forms a matched glowing portal in the other place. The other end of the portal must be in a clear space the character can see or has been to, up to 10 times their rank in spaces away. Outside of combat, they can teleport up to 1,000 times their rank in spaces away. Anything can move through the portal in either direction until it is closed, which the character can do at will."
+  },
+  {
+    "power": "Thunder",
+    "quote": "The character causes a deafening crack of thunder.",
+    "power_set": "Weather Control",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character makes an Ego check and compares that against the Resilience defense of every character within 10 spaces. Any character the attack succeeds against is deafened. On a Fantastic success, the character is also stunned for one round."
+  },
+  {
+    "power": "Time-out",
+    "quote": "The character freezes time.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Instant Replay, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The character or an ally is attacked.",
+    "duration": "1 round per rank.",
+    "cost": "15 Focus per round",
+    "effect": "The character freezes time for everyone but themselves. During this period, they can act normally while everyone else seems to be frozen in place."
+  },
+  {
+    "power": "Time-out Bubble",
+    "quote": "The character and allies step out of time.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Time-Out, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The character or an ally is attacked.",
+    "duration": "1 round per rank.",
+    "cost": "15 Focus per round",
+    "effect": "The character creates a time bubble that affects themselves and any chosen allies within 1 space per rank. Within the bubble, the character and those allies can act normally while everyone else seems to be frozen in place."
+  },
+  {
+    "power": "Time-out Tag",
+    "quote": "The character freezes a person or thing in time.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Time-Out, Rank 4",
+    "action": "Standard or reaction",
+    "trigger": "The character or an ally is attacked.",
+    "duration": "1 round per rank.",
+    "cost": "15 Focus per round",
+    "effect": "The character freezes time for one person or thing within their reach. Everything and everyone else can act normally. If the target does not wish to be frozen, the character must grab them first."
+  },
+  {
+    "power": "Time Portal",
+    "quote": "The character opens a portal in time.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Time Travel Together, Rank 4",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "15 Focus",
+    "effect": "The character opens a glowing portal in a space next to them that moves anything that enters it between that space and its destination, which forms a matched glowing portal in the other place. The other end of the portal must be in a clear space in another period of time, in roughly the same place. Anything can move through the portal in either direction until it is closed, which the character can do at will."
+  },
+  {
+    "power": "Time Travel",
+    "quote": "The character moves from one time to another.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Rank 3",
+    "action": "Standard or movement",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character instantly moves from their current time to another time—for instance, from the present to 1962. When they move to the other time, they can arrive in any place they’ve been to before. Otherwise, they arrive at the closest available corresponding space in the other time."
+  },
+  {
+    "power": "Time Travel Other",
+    "quote": "The character sends someone to another time.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Time Travel, Rank 4",
+    "action": "Standard, movement or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes an Ego check against the Vigilance defense of a target they have grabbed. If the check is successful, the character can send the target to another time. The target can be sent to any location in that time that the character has been to before. Otherwise, the target arrives at the closest available corresponding space in the other time."
+  },
+  {
+    "power": "Time Travel Together",
+    "quote": "The character brings someone with them to another time.",
+    "power_set": "Omniversal Travel",
+    "prerequisites": "Time Travel, Rank 3",
+    "action": "Standard, movement or reaction",
+    "trigger": "The target is grabbed.",
+    "duration": "Instant",
+    "cost": "10 Focus",
+    "effect": "The character moves to a different time, taking any person they are touching with them. If the target does not wish to come along, the character must grab them first."
+  },
+  {
+    "power": "Uncanny 1",
+    "quote": "The character has protection against mental assaults.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "Any damage multiplier for attacks against the character’s Focus is reduced by 1. If this power is part of a battle suit, the power is integrated into a removable helmet. Otherwise, it’s a part of the character."
+  },
+  {
+    "power": "Uncanny 2",
+    "quote": "The character’s mind is protected as if by steel.",
+    "power_set": "None",
+    "prerequisites": "Uncanny 1, Rank 2",
+    "duration": "Permanent",
+    "effect": "Any damage multiplier for attacks against the character’s Focus is reduced by 2."
+  },
+  {
+    "power": "Uncanny 3",
+    "quote": "The character’s mind is protected like a tank.",
+    "power_set": "None",
+    "prerequisites": "Uncanny 2, Rank 4",
+    "duration": "Permanent",
+    "effect": "Any damage multiplier for attacks against the character’s Focus is reduced by 3."
+  },
+  {
+    "power": "Uncanny 4",
+    "quote": "The character’s mind is protected like a battleship.",
+    "power_set": "None",
+    "prerequisites": "Uncanny 3, Rank 6",
+    "duration": "Permanent",
+    "effect": "Any damage multiplier for attacks against the character’s Focus is reduced by 4."
+  },
+  {
+    "power": "Unflappable Poise",
+    "quote": "The character can dodge most close attacks.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Defense Stance, Rank 3",
+    "duration": "Permanent",
+    "effect": "Any close attacks against the character have trouble. While they use Defense Stance, such attacks have double trouble."
+  },
+  {
+    "power": "Unrelenting Smash",
+    "quote": "The character smashes everything in reach.",
+    "power_set": "Super-Strength",
+    "prerequisites": "Ground-Shaking Stomp, Mighty 2, Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes a Melee check and compares it against the Melee defense of every enemy within their reach. Any enemy the attack succeeds against takes half regular damage. On a Fantastic success, those enemies take full regular damage and are knocked prone instead."
+  },
+  {
+    "power": "Unstoppable Assault",
+    "quote": "The character hews a path through their foes.",
+    "power_set": "Melee Weapons",
+    "prerequisites": "Furious Attacks, Focused Fury, Rank 4",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "15 Focus",
+    "effect": "The character makes a Melee check and compares that against the Melee defense of every enemy within their reach. Any enemy the attack succeeds against takes half regular damage. On a Fantastic success, those enemies take full regular damage instead and suffer the weapon’s special effect."
+  },
+  {
+    "power": "Untouchable Position",
+    "quote": "The character’s enemies struggle to gang up on them.",
+    "power_set": "Martial Arts",
+    "prerequisites": "Counterstrike Technique, Rank 3",
+    "duration": "Permanent",
+    "effect": "If the character is attacked, all other close attacks against them have trouble until the start of their next turn."
+  },
+  {
+    "power": "Vapors Of Valtorr",
+    "quote": "The character weaves an inky mist that can attack those inside it.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 3",
+    "action": "Standard",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character creates an inky mist for up to 25 spaces per rank around them that blocks all line of sight beyond 5 spaces. On later turns, the character can have the mist attacks one target at a time. Make an Ego check against the target’s Vigilance defense. On a success, the attack does regular damage. On a Fantastic success, it does double damage and blinds the target for one turn."
+  },
+  {
+    "power": "Venom Blast",
+    "quote": "The character unleashes a bioelectric shock.",
+    "power_set": "Spider-Powers",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "5 spaces",
+    "effect": "The character makes a ranged attack. If the attack is a success, it does regular damage. On a Fantastic success, the attack does double damage, and if the target suffers any actual damage, they are also stunned for one round."
+  },
+  {
+    "power": "Vicious Attack",
+    "quote": "The character strikes a felling blow.",
+    "power_set": "Melee Weapons",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character makes a close attack. If the attack is a success, the enemy takes regular damage. On a Fantastic success, the enemy takes double damage and suffers the weapon’s special effect."
+  },
+  {
+    "power": "Wallcrawling",
+    "quote": "The character can climb like a spider.",
+    "power_set": "Spider-Powers",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character can climb at a speed equal to their regular speed. Under normal conditions, they never lose their grip, no matter the angle of the surface."
+  },
+  {
+    "power": "Weapons Blazing",
+    "quote": "The character blazes away at two foes at once.",
+    "power_set": "Ranged Weapons",
+    "prerequisites": "Snap Shooting",
+    "action": "Standard",
+    "duration": "Instant",
+    "effect": "The character splits their attack to make two ranged attacks against separate targets (or they can focus a single attack on a single target). Make a single Agility check and compare it to the targets’ Agility defenses. On a success, the affected target takes half regular damage. On a Fantastic success, the affected target takes full damage, and the character can make a bonus attack with this power against any available target, with the same effect."
+  },
+  {
+    "power": "Weather Chill",
+    "quote": "The character cools things down.",
+    "power_set": "Weather Control",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The temperature in an area roughly a mile across falls as low as 0°F."
+  },
+  {
+    "power": "Weather Warm",
+    "quote": "The character heats things up.",
+    "power_set": "Weather Control",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Concentration",
+    "effect": "The temperature in an area roughly a mile across climbs as high as 100°F."
+  },
+  {
+    "power": "Webcasting",
+    "quote": "The character can snare a target in a web.",
+    "power_set": "Spider-Powers",
+    "prerequisites": "None",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "10 spaces",
+    "effect": "The character makes a ranged attack on an enemy. If the attack is a success, the web paralyzes the enemy. On a Fantastic success, the enemy is also pinned. Breaking free from webbing requires a Melee check (target number 16)."
+  },
+  {
+    "power": "Webgliding",
+    "quote": "The character can glide through the air on their webbing.",
+    "power_set": "Spider-Powers",
+    "prerequisites": "Webcasting, Rank 2",
+    "duration": "Permanent",
+    "effect": "The character gains the Glide movement mode, with a speed equal to double their Run Speed."
+  },
+  {
+    "power": "Webgrabbing",
+    "quote": "The character snares a foe in a web.",
+    "power_set": "Spider-Powers",
+    "prerequisites": "Webcasting, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "range": "10 spaces",
+    "cost": "5 Focus",
+    "effect": "The character makes a ranged attack on an enemy. If the attack is a success, the character grabs the target with a web. On a Fantastic success, the target can also be pinned. Breaking free from webbing requires a Melee check (target number 16)."
+  },
+  {
+    "power": "Webslinging",
+    "quote": "The character can swing through the city on their webs.",
+    "power_set": "Spider-Powers",
+    "prerequisites": "Webcasting, Rank 2",
+    "duration": "Permanent",
+    "effect": "The character gains the swingline movement mode, with a Speed equal to triple their Run Speed. The reach of their swingline is equal to their Swingline Speed."
+  },
+  {
+    "power": "Webtrapping",
+    "quote": "The character creates a giant web to trap those within it.",
+    "power_set": "Spider-Powers",
+    "prerequisites": "Webgrabbing, Rank 3",
+    "action": "Standard",
+    "duration": "One hour from the moment it’s produced",
+    "cost": "10 Focus",
+    "effect": "The character fills up to 5 spaces with sticky webs, and the affected spaces are considered difficult terrain. Any creature that starts its turn in or moves into an affected space must make an Agility check (target number 16) or be paralyzed by the webbing. Breaking free from webbing requires a Melee check (target number 16)."
+  },
+  {
+    "power": "Whirling Frenzy",
+    "quote": "The character assaults a foe with a tornado of whirling attacks.",
+    "power_set": "Melee Weapons",
+    "prerequisites": "Fast Attacks, Rank 2",
+    "action": "Standard",
+    "duration": "Instant",
+    "cost": "5 Focus",
+    "effect": "The character makes a Melee check and compares it against the Melee defense of every enemy within their reach. If an attack is a success, the enemy takes half regular damage. On a Fantastic success, the enemy takes full damage and suffers the weapon’s special effect."
+  },
+  {
+    "power": "Winds Of Watoomb",
+    "quote": "The character creates swirling winds for protection.",
+    "power_set": "Magic",
+    "prerequisites": "Sorcerous, Rank 2",
+    "action": "Standard or reaction",
+    "trigger": "Damage gets through the Shield of the Seraphim",
+    "duration": "Concentration",
+    "cost": "10 Focus",
+    "effect": "The character conjures swirling winds that they control. All movement by a foe within 10 spaces per the character’s rank is cut in half."
+  },
+  {
+    "power": "Wisdom",
+    "quote": "The character not only has brains but knows when to use them.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "duration": "Permanent",
+    "effect": "The character can use their Ego defense score against Logic attacks too."
+  },
+  {
+    "power": "Wisecracker",
+    "quote": "The character irritates a foe with their sharp wit.",
+    "power_set": "None",
+    "prerequisites": "None",
+    "action": "Reaction",
+    "trigger": "The character succeeds in an attack on an enemy in earshot, or an enemy in earshot fails an attack on them.",
+    "duration": "Instant",
+    "effect": "The character cracks a joke at the enemy’s expense. Make an Ego attack. On a success, it does regular Focus damage. On a Fantastic success, the damage is doubled, and the target is stunned for one round."
+  }
+]

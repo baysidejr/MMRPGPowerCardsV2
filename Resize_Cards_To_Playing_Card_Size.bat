@@ -1,0 +1,1 @@
+for %f in (cards\*.svg) do magick "%f" -density 300 -resize 675x1050! -set density 300 -set units PixelsPerInch "print_ready\%~nf.png"
